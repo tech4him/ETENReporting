@@ -415,34 +415,53 @@ export default function ImprovedApplicationsDashboard() {
 
                   {/* Report Status and Actions */}
                   <div className="ml-6 flex items-center space-x-4">
-                    {application.reports.map(report => {
-                      const status = getReportStatus(report)
-                      const { days, isOverdue } = getDaysUntilDue(report.due_date)
-                      
-                      return (
-                        <div key={report.id} className="text-right">
-                          <div className="flex items-center space-x-2 mb-2">
-                            {getStatusBadge(status)}
+                    {application.reports && application.reports.length > 0 ? (
+                      application.reports.map(report => {
+                        const status = getReportStatus(report)
+                        const { days, isOverdue } = getDaysUntilDue(report.due_date)
+                        
+                        return (
+                          <div key={report.id} className="text-right">
+                            <div className="flex items-center space-x-2 mb-2">
+                              {getStatusBadge(status)}
+                            </div>
+                            <p className="text-xs text-gray-500 mb-3">
+                              {isOverdue ? (
+                                <span className="text-red-600 font-medium">
+                                  {days} days overdue
+                                </span>
+                              ) : (
+                                `Due in ${days} days`
+                              )}
+                            </p>
+                            <Link
+                              href={`/applications/${application.id}/report`}
+                              className="btn-primary inline-flex items-center"
+                            >
+                              {status === 'submitted' ? 'View Report' : 'Continue Report'}
+                              <ArrowRight className="ml-1 h-4 w-4" />
+                            </Link>
                           </div>
-                          <p className="text-xs text-gray-500 mb-3">
-                            {isOverdue ? (
-                              <span className="text-red-600 font-medium">
-                                {days} days overdue
-                              </span>
-                            ) : (
-                              `Due in ${days} days`
-                            )}
-                          </p>
-                          <Link
-                            href={`/applications/${application.id}/report`}
-                            className="btn-primary inline-flex items-center"
-                          >
-                            {status === 'submitted' ? 'View Report' : 'Continue Report'}
-                            <ArrowRight className="ml-1 h-4 w-4" />
-                          </Link>
+                        )
+                      })
+                    ) : (
+                      // Show default action for applications without reports
+                      <div className="text-right">
+                        <div className="flex items-center space-x-2 mb-2">
+                          {getStatusBadge('not_started')}
                         </div>
-                      )
-                    })}
+                        <p className="text-xs text-gray-500 mb-3">
+                          Due July 31, 2025
+                        </p>
+                        <Link
+                          href={`/applications/${application.id}/report`}
+                          className="btn-primary inline-flex items-center"
+                        >
+                          Start Report
+                          <ArrowRight className="ml-1 h-4 w-4" />
+                        </Link>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
