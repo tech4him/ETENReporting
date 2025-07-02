@@ -435,7 +435,7 @@ export default function ImprovedApplicationsDashboard() {
                           </p>
                           <Link
                             href={`/applications/${application.id}/report`}
-                            className="inline-flex items-center px-3 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
+                            className="btn-primary inline-flex items-center"
                           >
                             {status === 'submitted' ? 'View Report' : 'Continue Report'}
                             <ArrowRight className="ml-1 h-4 w-4" />
