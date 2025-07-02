@@ -16,6 +16,7 @@ import {
   RotateCcw
 } from 'lucide-react'
 import Link from 'next/link'
+import { getCallTypeColor } from '@/utils/call-type-colors'
 
 interface ApplicationWithReport {
   id: string
@@ -58,15 +59,11 @@ interface DashboardFilters {
 }
 
 function getReportStatus(report: ApplicationWithReport['reports'][0]) {
-  const now = new Date()
-  const dueDate = new Date(report.due_date)
-  
-  if (report.status === 'submitted') return 'submitted'
-  if (report.status === 'reopened') return 'reopened'
-  if (now > dueDate) return 'overdue'
-  if (report.status === 'draft') return 'draft'
-  return 'not_started'
+  // For now, just return the actual status from the database
+  // We'll handle overdue logic separately since we don't have due_date in the DB
+  return report.status || 'not_started'
 }
+
 
 function getStatusBadge(status: string) {
   const configs = {
@@ -172,18 +169,97 @@ export default function ImprovedApplicationsDashboard() {
         }
 
         const data = await response.json()
+        console.log('Applications fetched:', data.length)
+        
+        // Get application IDs and organization IDs for fetching related data
+        const applicationIds = data.map((app: any) => app.id)
+        const organizationIds = [...new Set(data.map((app: any) => app.organization_id))]
+        
+        // Fetch reports for these applications
+        let reportsData = []
+        if (applicationIds.length > 0) {
+          const reportsResponse = await fetch(
+            `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/eten_application_reports?select=id,application_id,status,reporting_period_start,reporting_period_end,submitted_at&reporting_period_start=eq.2025-01-01&reporting_period_end=eq.2025-06-30&application_id=in.(${applicationIds.join(',')})`,
+            {
+              headers: {
+                'apikey': process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+                'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!}`,
+                'Content-Type': 'application/json'
+              }
+            }
+          )
+          
+          if (reportsResponse.ok) {
+            reportsData = await reportsResponse.json()
+            console.log('Reports fetched:', reportsData)
+          }
+        }
+        
+        // Fetch organizations for these applications
+        let organizationsData = []
+        if (organizationIds.length > 0) {
+          const orgsResponse = await fetch(
+            `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/eten_organizations?select=id,name,client_rep_id&id=in.(${organizationIds.join(',')})`,
+            {
+              headers: {
+                'apikey': process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+                'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!}`,
+                'Content-Type': 'application/json'
+              }
+            }
+          )
+          
+          if (orgsResponse.ok) {
+            organizationsData = await orgsResponse.json()
+            console.log('Organizations fetched:', organizationsData)
+          }
+        }
+        
+        // Fetch client reps for these organizations
+        const clientRepIds = [...new Set(organizationsData.filter((org: any) => org.client_rep_id).map((org: any) => org.client_rep_id))]
+        let clientRepsData = []
+        if (clientRepIds.length > 0) {
+          const repsResponse = await fetch(
+            `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/client_reps?select=id,full_name&id=in.(${clientRepIds.join(',')})`,
+            {
+              headers: {
+                'apikey': process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+                'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!}`,
+                'Content-Type': 'application/json'
+              }
+            }
+          )
+          
+          if (repsResponse.ok) {
+            clientRepsData = await repsResponse.json()
+            console.log('Client reps fetched:', clientRepsData)
+          }
+        }
         
         // Transform data to match expected structure
-        const transformedData = data.map((app: any) => ({
-          ...app,
-          organization: {
-            name: app.organization_name || 'Unknown Organization',
-            client_rep: { full_name: app.client_rep_name || 'Unknown Rep' }
-          },
-          financials: app.application_financials || [],
-          reports: app.eten_application_reports || [],
-          activities: app.eten_activities || []
-        }))
+        const transformedData = data.map((app: any) => {
+          const appReports = reportsData.filter((r: any) => r.application_id === app.id)
+          console.log(`Application ${app.name} reports:`, appReports)
+          
+          // Find organization data
+          const organization = organizationsData.find((org: any) => org.id === app.organization_id)
+          
+          // Find client rep data
+          const clientRep = organization?.client_rep_id 
+            ? clientRepsData.find((rep: any) => rep.id === organization.client_rep_id)
+            : null
+          
+          return {
+            ...app,
+            organization: {
+              name: organization?.name || 'Unknown Organization',
+              client_rep: { full_name: clientRep?.full_name || 'No contact assigned' }
+            },
+            financials: app.application_financials || [],
+            reports: appReports,
+            activities: app.eten_activities || []
+          }
+        })
         
         setApplications(transformedData)
       } catch (err) {
@@ -335,13 +411,13 @@ export default function ImprovedApplicationsDashboard() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Search */}
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+            <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
             <input
               type="text"
               placeholder="Search applications..."
               value={filters.search}
               onChange={(e) => setFilters(prev => ({ ...prev, search: e.target.value }))}
-              className="pl-10 w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-500 bg-white"
+              className="pr-10 w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-500 bg-white"
             />
           </div>
 
@@ -392,7 +468,7 @@ export default function ImprovedApplicationsDashboard() {
                       <h3 className="text-lg font-medium text-gray-900">
                         {application.name}
                       </h3>
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                      <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${getCallTypeColor(application.call_type)}`}>
                         {application.call_type}
                       </span>
                     </div>
@@ -418,7 +494,8 @@ export default function ImprovedApplicationsDashboard() {
                     {application.reports && application.reports.length > 0 ? (
                       application.reports.map(report => {
                         const status = getReportStatus(report)
-                        const { days, isOverdue } = getDaysUntilDue(report.due_date)
+                        // Use fixed due date for July 31, 2025 since it's not in the DB
+                        const { days, isOverdue } = getDaysUntilDue('2025-07-31')
                         
                         return (
                           <div key={report.id} className="text-right">
@@ -438,7 +515,8 @@ export default function ImprovedApplicationsDashboard() {
                               href={`/applications/${application.id}/report`}
                               className="btn-primary inline-flex items-center"
                             >
-                              {status === 'submitted' ? 'View Report' : 'Continue Report'}
+                              {status === 'submitted' ? 'View Report' : 
+                               status === 'not_started' ? 'Start Report' : 'Continue Report'}
                               <ArrowRight className="ml-1 h-4 w-4" />
                             </Link>
                           </div>

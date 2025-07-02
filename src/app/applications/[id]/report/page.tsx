@@ -66,7 +66,9 @@ export default function ApplicationReportPage() {
         )
         
         if (!applicationResponse.ok) {
-          throw new Error(`HTTP error! status: ${applicationResponse.status}`)
+          const errorData = await applicationResponse.text()
+          console.error('Failed to fetch application:', applicationResponse.status, errorData)
+          throw new Error(`Failed to fetch application: ${applicationResponse.status} ${errorData}`)
         }
         
         const applicationData = await applicationResponse.json()
@@ -145,6 +147,10 @@ export default function ApplicationReportPage() {
             if (createResponse.ok) {
               const newReportData = await createResponse.json()
               existingReport = newReportData[0] || null
+            } else {
+              const errorData = await createResponse.text()
+              console.error('Failed to create report:', createResponse.status, errorData)
+              throw new Error(`Failed to create report: ${createResponse.status} ${errorData}`)
             }
             
             // If upsert didn't return data, fetch the existing report
@@ -292,7 +298,6 @@ export default function ApplicationReportPage() {
             progress_narrative: data.progress_narrative || null,
             variance_narrative: data.variance_narrative || null,
             financial_summary_narrative: data.financial_summary_narrative || null,
-            current_funds_spent: data.current_funds_spent || null,
             status: 'draft',
             updated_at: new Date().toISOString()
           })
@@ -300,7 +305,9 @@ export default function ApplicationReportPage() {
       )
 
       if (!reportResponse.ok) {
-        throw new Error('Failed to save report')
+        const errorData = await reportResponse.text()
+        console.error('Report save failed:', reportResponse.status, errorData)
+        throw new Error(`Failed to save report: ${reportResponse.status} ${errorData}`)
       }
 
       // Save project allocations if provided
@@ -349,8 +356,9 @@ export default function ApplicationReportPage() {
           )
 
           if (!allocationResponse.ok) {
-            console.error('Failed to save project allocation')
-            continue
+            const errorData = await allocationResponse.text()
+            console.error('Failed to save project allocation:', allocationResponse.status, errorData)
+            throw new Error(`Failed to save project allocation: ${allocationResponse.status} ${errorData}`)
           }
 
           const savedAllocation = await allocationResponse.json()
@@ -394,7 +402,7 @@ export default function ApplicationReportPage() {
         )
 
         // Insert new non-project allocations
-        await fetch(
+        const nonProjectResponse = await fetch(
           `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/non_project_allocations`,
           {
             method: 'POST',
@@ -412,6 +420,12 @@ export default function ApplicationReportPage() {
             })
           }
         )
+
+        if (!nonProjectResponse.ok) {
+          const errorData = await nonProjectResponse.text()
+          console.error('Failed to save non-project allocations:', nonProjectResponse.status, errorData)
+          throw new Error(`Failed to save non-project allocations: ${nonProjectResponse.status} ${errorData}`)
+        }
       }
 
       console.log('Report saved successfully')

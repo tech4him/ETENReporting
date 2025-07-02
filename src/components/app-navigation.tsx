@@ -60,12 +60,6 @@ const navigation: NavigationItem[] = [
     ]
   },
   {
-    name: 'Projects',
-    href: '/projects',
-    icon: Users,
-    description: 'Project management'
-  },
-  {
     name: 'Admin',
     href: '/admin',
     icon: Settings,
@@ -270,11 +264,11 @@ export default function AppNavigation() {
             {/* Search (desktop only) */}
             <div className="hidden md:block">
               <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="form-input-sm pl-10 pr-4 w-64"
+                  className="form-input-sm pr-10 pl-4 w-64"
                 />
               </div>
             </div>
@@ -312,11 +306,11 @@ export default function AppNavigation() {
             {/* Mobile search */}
             <div className="px-3 py-2">
               <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="form-input-sm pl-10 pr-4"
+                  className="form-input-sm pr-10 pl-4"
                 />
               </div>
             </div>

@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { useAuth } from '@/contexts/AuthContext'
 import { FileText, DollarSign, Calendar, ArrowRight, AlertCircle, Users, Target } from 'lucide-react'
 import Link from 'next/link'
+import { getCallTypeColor } from '@/utils/call-type-colors'
 
 interface Application {
   id: string
@@ -145,6 +146,7 @@ export default function ApplicationsPage() {
           const reports = reportsData.filter((r: any) => r.application_id === application.id)
           const activities = activitiesData.filter((a: any) => a.application_id === application.id)
           
+          
           return {
             ...application,
             organization: {
@@ -217,22 +219,6 @@ export default function ApplicationsPage() {
     }
   }
 
-  const getCallTypeColor = (callType: string) => {
-    switch (callType) {
-      case 'Translation Tool':
-        return 'bg-blue-100 text-blue-800'
-      case 'Translation Investment':
-        return 'bg-purple-100 text-purple-800'
-      case 'Organizational Development':
-        return 'bg-green-100 text-green-800'
-      case 'Quality Assurance':
-        return 'bg-orange-100 text-orange-800'
-      case 'Capacity Building':
-        return 'bg-indigo-100 text-indigo-800'
-      default:
-        return 'bg-gray-100 text-gray-800'
-    }
-  }
 
   return (
     <div className="min-h-screen bg-gray-50">
