@@ -1,0 +1,238 @@
+X18_Digit_Contact_ID__c,FirstName,LastName,AccountId,Organization Name,Name,npsp__Primary_Contact__c,Birthdate,Description,npe01__WorkEmail__c,X2nd_Email__c,npe01__WorkPhone__c,MobilePhone,OtherPhone,MailingAddress,npsp__Current_Address__c,OwnerId
+0032G00002eydYtQAI,Anthony,Kuehler,0011N00001F0sdqQAB,Mission Mutual,Anthony Kuehler,0.0,,,,,,,,,,0051N000005pMH7QAM
+0032G00002S0laAQAR,Bill,McCoy,0011N00001F0sdqQAB,Mission Mutual,Bill McCoy,0.0,,,,,,,,,,0052G000005Phx2QAC
+0032G00002St5GXQAZ,Mindy,Robbins,0011N00001F0sdqQAB,Mission Mutual,Mindy Robbins,0.0,,MissionMutualWebLead,,,,(817) 401-7497,(817) 401-7497,,,0052G000005Phx2QAC
+0035c00002F6sdJAAR,Tom,Lucas,0011N00001F0sdqQAB,Mission Mutual,Tom Lucas,0.0,,,,,,,,,,0051N000005pMH7QAM
+0035c00002FQgFMAA1,Kyle,Oliver,0011N00001F0sdqQAB,Mission Mutual,Kyle Oliver,0.0,,,,,,,,,,0055c000008YGuWAAW
+0035c00002nPCBCAA4,Brett,Stokes,0011N00001F0sdqQAB,Mission Mutual,Brett Stokes,0.0,1986-12-18 00:00:00,"Partner Support Coordinator for LBT, TWFTW, UBS/ABS.",brett@missionmutual.org,,,6147798538,,,,0055c000009OfwiAAC
+0035c00002nPCQ2AAO,Jenny,Duncan,0011N00001F0sdqQAB,Mission Mutual,Jenny Duncan,0.0,1985-11-17 00:00:00,,,,,,,,,0055c000009OfwiAAC
+0035c00002nPCYkAAO,Baleigh,Alverson,0011N00001F0sdqQAB,Mission Mutual,Baleigh Alverson,0.0,1996-10-31 00:00:00,,baleigh@missionmutual.org,,,8172662074,,,,0055c000009OtFYAA0
+003Uq000007rkyLIAQ,Julie,Riggs,0011N00001F0sdqQAB,Mission Mutual,Julie Riggs,0.0,,,julie@missionmutual.org,,,,,,,005Uq000003LVezIAG
+003Uq000009rZH6IAM,Laura,Gish,0011N00001F0sdqQAB,Mission Mutual,Laura Gish,0.0,,,laura@missionmutual.org,,817-422-9467,8177934225,,,,0055c00000AJ8G2AAL
+003Uq00000LeePUIAZ,Celia,Scharnhorst,0011N00001F0sdqQAB,Mission Mutual,Celia Scharnhorst,0.0,,,,,,,,,,005Uq00000EYyu5IAD
+003Uq00000LeiHeIAJ,Nena,Podbury,0011N00001F0sdqQAB,Mission Mutual,Nena Podbury,0.0,,,nena@missionmutual.org,,,,,,,005Uq00000EYyu5IAD
+003Uq00000LejnHIAR,Laura,Gish,0011N00001F0sdqQAB,Mission Mutual,Laura Gish,0.0,,,laura@missionmutual.org,,,,,,,005Uq00000EYyu5IAD
+003Uq00000Leqa6IAB,Mindy,Robbins,0011N00001F0sdqQAB,Mission Mutual,Mindy Robbins,0.0,,,mindy@missionmutual.org,,,,,,,005Uq00000EYyu5IAD
+,,,,,,,,,,,,,,,,
+0032G00002eylEBQAY,Jonathan,Kern,0012G00001gpJjuQAE,,Jonathan Kern,0.0,,,,,,,,,,0052G000005Phx2QAC
+0032G00002Rze3yQAB,Shawn,Ring,0012G00001gpJjuQAE,,Shawn Ring,0.0,,,,,,,,,,0052G000005Phx2QAC
+0032G00002SPuXzQAL,Becca,Ross,0012G00001gpJjuQAE,,Becca Ross,0.0,,,,,,,,,,0052G000005Phx2QAC
+0035c00002eJxeIAAS,Larry,Jones,0012G00001gpJjuQAE,,Larry Jones,0.0,,,larry_jones@tsco.org,,,,,,,0052G000005Phx2QAC
+003Uq000006QAGQIA4,Davis,Powell,0012G00001gpJjuQAE,,Davis Powell,0.0,,,davis_powell@tsco.org,,,(817) 557-2121,,,,0055c000009OdZ3AAK
+003Uq000007kDuHIAU,Aaron,Goccia,0012G00001gpJjuQAE,,Aaron Goccia,0.0,,,aaron_goccia@tsco.org,,,,,,,0055c000009OdZ3AAK
+003Uq00000FzonWIAR,Doug,Kogler,0012G00001gpJjuQAE,,Doug Kogler,0.0,,,doug_kogler@tsco.org,,,,,,,0055c00000AJ8G2AAL
+003Uq00000FzrwVIAR,Lisa,Dammon,0012G00001gpJjuQAE,,Lisa Dammon,0.0,,,lisa_dammon@tsco.org,,,,,,,0055c00000AJ8G2AAL
+003Uq00000FzuELIAZ,Daniella,Harrison,0012G00001gpJjuQAE,,Daniella Harrison,0.0,,,daniella_harrison@tsco.org,,,,,,,0055c00000AJ8G2AAL
+003Uq00000L7ckPIAR,Solomon,Lujan,0012G00001gpJjuQAE,,Solomon Lujan,0.0,,,solomon_lujan@tsco.org,,,,,,,005Uq00000EYyu5IAD
+003Uq00000PWzBfIAL,Christie,Davis,0012G00001gpJjuQAE,,Christie Davis,0.0,,,christie_davis@tsco.org,,,,,,,0055c000009OdZ3AAK
+003Uq00000PX1XbIAL,Jamie,Hanson,0012G00001gpJjuQAE,,Jamie Hanson,0.0,,,jamie_hanson@tsco.org,,,,,,,0055c000009OdZ3AAK
+003Uq00000PX2FyIAL,Aimee,Reynolds,0012G00001gpJjuQAE,,Aimee Reynolds,0.0,,,aimee_reynolds@tsco.org,,,,,,,0055c000009OdZ3AAK
+0032G00002bgj9KQAQ,Christopher,Chesnut,0012G00001mDkHtQAK,,Christopher Chesnut,0.0,,Completed tenure at Wycliffe USA. Moved to Gloo.,,,,,,,,0055c000009OdZ3AAK
+0032G00002fgURvQAM,Vicky,Mixson,0012G00001mDkHtQAK,,Vicky Mixson,0.0,,,,,,,,,,0055c000009OdZ3AAK
+0032G00002S17HTQAZ,Andrew,Flemming,0012G00001mDkHtQAK,,Andrew Flemming,1.0,,,andrew_flemming@wycliffe.org,,,,,,,0055c000009OdZ3AAK
+0035c00002eJxfBAAS,John,Chesnut,0012G00001mDkHtQAK,,John Chesnut,0.0,,,john_chesnut@wycliffe.org,,,,,,,0052G000005Phx2QAC
+0035c00002F70zHAAR,Susha,Roberts,0012G00001mDkHtQAK,,Susha Roberts,0.0,,,,,,,,,,0055c000009OdZ3AAK
+003Uq000007kbzpIAA,Mason,Martin,0012G00001mDkHtQAK,,Mason Martin,0.0,,,mason_martin@wycliffe.org,,,,,,,0055c000009OdZ3AAK
+003Uq000008w4JbIAI,Jeremy,Roe,0012G00001mDkHtQAK,,Jeremy Roe,0.0,,,jwroe2@gmail.com,,,,,,,0055c000008YGuWAAW
+003Uq00000L7ap7IAB,Matthew,Petersen,0012G00001mDkHtQAK,,Matthew Petersen,0.0,,,matt_petersen@wycliffe.org,,,,,,,005Uq00000EYyu5IAD
+003Uq00000MAyr9IAD,Savannah,Kulig,0012G00001mDkHtQAK,,Savannah Kulig,0.0,,,savannah_kulig@wycliffe.org,,,,,,,0055c000009OdZ3AAK
+003Uq00000PWp5yIAD,Lori,Devos,0012G00001mDkHtQAK,,Lori Devos,0.0,,,lori_devos@wycliffe.org,,,,,,,0055c000009OdZ3AAK
+003Uq00000PX3OvIAL,Angie,Jambura,0012G00001mDkHtQAK,,Angie Jambura,0.0,,,angie_jambura@wycliffe.org,,,,,,,0055c000009OdZ3AAK
+0032G00002S1MKFQA3,Matthew,Kistler,0012G00001mDvcAQAS,,Matthew Kistler,0.0,,,mkistler@americanbible.org,,,,,,,0055c000009OfwiAAC
+0035c00002E10sIAAR,Matthew,Grewe,0012G00001mDvcAQAS,,Matthew Grewe,0.0,,,mgrewe@americanbible.org,,,,,,,0052G000005Phx2QAC
+0035c00002eJxZ3AAK,Paul,Cleckner,0012G00001mDvcAQAS,,Paul Cleckner,0.0,,,pcleckner@americanbible.org,,,,,,,0052G000005Phx2QAC
+0035c00002XyZZlAAN,Bryce,Allison,0012G00001mDvcAQAS,,Bryce Allison,0.0,,"* Prefers Slack for communication
+* Oversees the digital bible translation tools",ballison@americanbible.org,,,,,,,0055c000009OfwiAAC
+003Uq00000EQPyoIAH,Jennifer,Holloran,0012G00001mDvcAQAS,,Jennifer Holloran,1.0,,,jholloran@americanbible.org,,,,,,,0055c000009OfwiAAC
+003Uq00000L7c65IAB,Sam,Harrell,0012G00001mDvcAQAS,,Sam Harrell,0.0,,,sharrell@americanbible.org,,,,,,,005Uq00000EYyu5IAD
+0032G00002S1TZpQAN,Tracy,Thomas,0012G00001mE1IvQAK,,Tracy Thomas,0.0,,,tracy.thomas@biblica.org,,,,,,,0055c000009OtFYAA0
+0035c00002eIlERAA0,Mark,Finzel,0012G00001mE1IvQAK,,Mark Finzel,1.0,,,mark.finzel@biblica.com,,,719-661-9442,,,,0055c000009OtFYAA0
+0035c00002eIlFjAAK,Jonathan,Call,0012G00001mE1IvQAK,,Jonathan Call,0.0,,Focuses on translation projects,jonathan.call@biblica.com,,,719-338-1694,,,,0055c000009OtFYAA0
+0035c00002eJxcbAAC,Geof,Morin,0012G00001mE1IvQAK,,Geof Morin,0.0,,,geof.morin@biblica.com,,,,,,,0052G000005Phx2QAC
+0035c00002F6nTcAAJ,Bob,Wood,0012G00001mE1IvQAK,,Bob Wood,0.0,,,,,,,,,,0052G000005Phx2QAC
+003Uq00000AHKcUIAX,Ted,Draper,0012G00001mE1IvQAK,,Ted Draper,0.0,,,ted.draper@biblica.com,,,,,,,005Uq000003LVezIAG
+003Uq00000AYpyjIAD,Jack,Newman,0012G00001mE1IvQAK,,Jack Newman,0.0,,,jack.newman@biblica.com,,,,,,,0055c000009OtFYAA0
+003Uq00000L7cXWIAZ,Peggy,Connett,0012G00001mE1IvQAK,,Peggy Connett,0.0,,,peggy.connett@biblica.com,,,,,,,005Uq00000EYyu5IAD
+,,,,,,,,,,,,,,,,
+0032G00002S0ln9QAB,Melva,Wahl,0012G00001mE6C3QAK,,Melva Wahl,0.0,,,,,,,,,,0055c000009OtFYAA0
+0032G00002S1ZnHQAV,Brad,Willits,0012G00001mE6C3QAK,,Brad Willits,1.0,,,brad.willits@pioneerbible.org,,,,,,,0055c000009OtFYAA0
+0035c00002eJxdeAAC,Greg,Pruett,0012G00001mE6C3QAK,,Greg Pruett,0.0,,,greg.pruett@pioneerbible.org,,,,,,,0052G000005Phx2QAC
+0035c00002eK0o6AAC,Clint,Stringer,0012G00001mE6C3QAK,,Clint Stringer,0.0,,,clint.stringer@pioneerbible.org,,,,,,,0055c000009OtFYAA0
+0035c00002pwZ0tAAE,J.R.,Bucklew,0012G00001mE6C3QAK,,J.R. Bucklew,0.0,,,jr.bucklew@pioneerbible.org,,,,,,,0052G000005Phx2QAC
+003Uq000007kBm7IAE,Jeremy,Harrison,0012G00001mE6C3QAK,,Jeremy Harrison,0.0,,,jeremy.harrison@pioneerbible.org,,,,,,,0055c000009OdZ3AAK
+003Uq000009fP3tIAE,Chris,Vickio,0012G00001mE6C3QAK,,Chris Vickio,0.0,,,chris.vickio@pioneerbible.org,,,,,,,0055c000009OtFYAA0
+003Uq00000AtrxIIAR,Bill,Lohr,0012G00001mE6C3QAK,,Bill Lohr,0.0,,,bill.lohr@pioneerbible.org,,,,,,,0055c000009OtFYAA0
+003Uq00000L7UyBIAV,Mike,Herchenroeder,0012G00001mE6C3QAK,,Mike Herchenroeder,0.0,,,mike.herchenroeder@pioneerbible.org,,,,,,,005Uq00000EYyu5IAD
+0032G00002SNGzbQAH,Sally,Folkins,0012G00001mEXd2QAG,,Sally Folkins,0.0,,,,,,,,,,0055c000009OdZ3AAK
+0035c00002eJtYHAA0,Christy,Liner,0012G00001mEXd2QAG,,Christy Liner,1.0,,,,,,,,,,0055c000009OdZ3AAK
+0035c00002eJxeXAAS,Michel,Kenmogne,0012G00001mEXd2QAG,,Michel Kenmogne,0.0,,,michel_kenmogne@sil.org,,,,,,,0052G000005Phx2QAC
+0035c00002eK11VAAS,Jake,Wadsley,0012G00001mEXd2QAG,,Jake Wadsley,0.0,,,jake_wadsley@sil.org,,,,,,,0055c000009OdZ3AAK
+0035c00002eL7L8AAK,Ko,Stroo,0012G00001mEXd2QAG,,Ko Stroo,0.0,,,ko-stroo@sil.org,,,,,,,0055c000009OdZ3AAK
+0035c00002XyQ1wAAF,Ian,Hollman,0012G00001mEXd2QAG,,Ian Hollman,0.0,,British Summer Time Zone,ian_hollman@sil.org,,,447494229306,,,,0055c000009OdZ3AAK
+003Uq000007bILJIA2,Anne,Liggett,0012G00001mEXd2QAG,,Anne Liggett,0.0,,,anne_liggett@sil.org,,,,,,,0055c000009OdZ3AAK
+003Uq000007kInVIAU,Sunny,Hong,0012G00001mEXd2QAG,,Sunny Hong,0.0,,,sunny_hong@sil.org,,,,,,,0055c000009OdZ3AAK
+003Uq00000Az2IiIAJ,Courtenay,Barclay,0012G00001mEXd2QAG,,Courtenay Barclay,0.0,,,courtenay_barclay@sil.org,,,,,,,0055c000009OdZ3AAK
+003Uq00000L7cMEIAZ,Ann,Kuy,0012G00001mEXd2QAG,,Ann Kuy,0.0,,,ann_kuy@sil.org,,,,,,,005Uq00000EYyu5IAD
+0032G00002eypZbQAI,Katie,Hogan,0012G00001mwY74QAE,,Katie Hogan,0.0,,,,,,,,,,0055c000009OfwiAAC
+0032G00002SQbdEQAT,Richard,Rudowske,0012G00001mwY74QAE,,Richard Rudowske,0.0,,,,,,,,,,0055c000009OfwiAAC
+0035c00002XyZh9AAF,Paul,Federwitz,0012G00001mwY74QAE,,Paul Federwitz,1.0,,"* Lives in Ethiopia
+*WhatsApp for contacting",paul.federwitz@lbt.org,,(660) 225-0810,251976066436,,,,0055c000009OfwiAAC
+003Uq00000AMEEfIAP,Sarah,Esala,0012G00001mwY74QAE,,Sarah Esala,0.0,,,sarah.esala@lbt.org,,,,,,,0055c000009OfwiAAC
+003Uq00000L7P9DIAV,Ali,Federwitz,0012G00001mwY74QAE,,Ali Federwitz,0.0,,,ali.federwitz@lbt.org,,,,,,,005Uq00000EYyu5IAD
+0032G00002bgoMvQAI,Beth,Oakes,0012G00001wM6PgQAK,,Beth Oakes,0.0,,"Beth is no longer full time at unfoldingWord, but will volunteer with grants. This happened at the end of 2024",,,,,,,,0055c000009OtFYAA0
+0035c00002eIlGmAAK,Jesse,Griffin,0012G00001wM6PgQAK,,Jesse Griffin,1.0,,,jesse.griffin@unfoldingword.org,,,,,,,0055c000009OtFYAA0
+0035c00002eIlGwAAK,David,Reeves,0012G00001wM6PgQAK,,David Reeves,0.0,,,david.reeves@unfoldingword.org,,,,,,,0055c000009OtFYAA0
+0035c00002eLQk5AAG,Heather,Hughes,0012G00001wM6PgQAK,,Heather Hughes,0.0,,Heather is no longer with unfoldingWord,heather@islandiafirm.com,,,,,,,0052G000005Phx2QAC
+0035c00002FR1ywAAD,Russ,Perry,0012G00001wM6PgQAK,,Russ Perry,0.0,,,,,,,,,,0055c000009OtFYAA0
+003Uq000009ZXX8IAO,Maria,Abraham,0012G00001wM6PgQAK,,Maria Abraham,0.0,,,maria.abraham@unfoldingword.org,,,,,,,0055c000009OtFYAA0
+003Uq00000L7V7sIAF,Letty,Vendrell,0012G00001wM6PgQAK,,Letty Vendrell,0.0,,,letty.vendrell@unfoldingword.org,,,,,,,005Uq00000EYyu5IAD
+0032G00002dVg23QAC,Graham,Baxter,0012G00001y7mzNQAQ,,Graham Baxter,0.0,,,,,,,,,,0052G000005Phx2QAC
+0035c00002eJaTKAA0,Andrew,Neale,0012G00001y7mzNQAQ,,Andrew Neale,0.0,,,aneale@biblesocieties.org,,,,,,,0052G00000AUhyCQAT
+0035c00002eJfTaAAK,Jared,Williams,0012G00001y7mzNQAQ,,Jared Williams,0.0,,,jwilliams@biblesocieties.org,,,,,,,0055c000009OfwiAAC
+0035c00002eJfU9AAK,Alexander,Schweitzer,0012G00001y7mzNQAQ,,Alexander Schweitzer,0.0,,,aschweitzer@biblesocieties.org,,+44 (0)1793 236 200,,,,,0055c000009OfwiAAC
+0035c00002F726hAAB,Claire,Heffer,0012G00001y7mzNQAQ,,Claire Heffer,0.0,,,,,,,,,,0052G000005Phx2QAC
+0035c00002XyZeAAAV,Steven,Berneking,0012G00001y7mzNQAQ,,Steven Berneking,0.0,,*Lives in Virginia,sberneking@biblesocieties.org,,,(441) 793-236200,,,,0055c000009OfwiAAC
+0035c00002XyZfhAAF,Adrian,White,0012G00001y7mzNQAQ,,Adrian White,1.0,,"*WhatsApp best way to contact him (via mobile) 
+* Lives in Germany
+* serious personality",awhite@biblesocieties.org,,(441) 793-236200,4407752481942,,,,0055c000009OfwiAAC
+0035c00002XyZgaAAF,Dirk,Gevers,0012G00001y7mzNQAQ,,Dirk Gevers,0.0,,,gevers@biblesocieties.org,,,,,,,0055c000009OfwiAAC
+003Uq00000L7WgeIAF,Rosalee,Ewell,0012G00001y7mzNQAQ,,Rosalee Ewell,0.0,,,,,,,,,,005Uq00000EYyu5IAD
+003Uq00000PFYUPIA5,Patrick,van de Grift,0012G00001y7mzNQAQ,,Patrick van de Grift,0.0,,"I am pleased to announce the appointment of Patrick van de Grift as UBSA Director of Technology.
+
+Patrick is currently a member of the UBSA Bible Ministry Technology team with a focus on developing and strategizing for key digital tools. He previously worked with the Bible Society for the Netherlands and Flanders and in the commercial sector. He will start in the role of Director of Technology on 10 March 2025.
+
+There are 3 areas of focus to the Director of Technology role: 
+
+To lead on strategy across all areas of technology in the UBSA structure (Global Mission Team). 
+
+To be the UBSA lead on the development of UBS Fellowship-wide collaborative initiatives and strategies for digital technology, working closely with Bible Societies.  
+
+To represent UBSA in all matters related to strategic partnerships with other organisations in the digital area.
+
+This is a newly created role serving as a member of the UBSA Strategic Leadership Team. The role reports to the UBSA Chief Operating Officer, Adrian White. It also reports to the UBS Secretary General, Dirk Gevers, in relation to strategic matters.  
+
+Please continue to work with your existing contacts for operational technology matters. In relation to leadership around strategic technology matters, Patrick can be contacted by email: pvandegrift@biblesocieties.org",pvandegrift@biblesocieties.org,,,,,,,0055c000009OfwiAAC
+0032G00002eygAcQAI,Chantel,Pagan,0012G00001zc6J0QAI,,Chantel Pagan,1.0,,,,,,,,,,0055c000008YGuWAAW
+0032G00002S1saEQAR,Stephanie,Davison,0012G00001zc6J0QAI,,Stephanie Davison,0.0,,,,,,,,,,0055c000008YGuWAAW
+003Uq000008vyngIAA,Samantha,Roe,0012G00001zc6J0QAI,,Samantha Roe,0.0,,,sam@deafbiblesociety.com,,,(800) 654-3690,,,,0055c000008YGuWAAW
+003Uq000008vzF4IAI,Martha,Buell,0012G00001zc6J0QAI,,Martha Buell,0.0,,Deaf Bible Society,martha@deafbiblesociety.com,,,,,,,0055c000008YGuWAAW
+003Uq000009XnzFIAS,Rebecca,Johnson,0012G00001zc6J0QAI,,Rebecca Johnson,0.0,,,,,,,,,,0055c000008YGuWAAW
+003Uq00000L7Z52IAF,Jocelyn,Schlenker,0012G00001zc6J0QAI,,Jocelyn Schlenker,0.0,,,jocelyn@sotrosdigital.com,,,,,,,005Uq00000EYyu5IAD
+0032G00002eyhVbQAI,Jessica,Test,0012G00001zc7YaQAI,,Jessica Test,0.0,,,,,,555-555-5555,,,,0052G000005PmXsQAK
+0032G00002S1HaBQAV,TL,Sheffield,0015c000021NUFcAAO,,TL Sheffield,0.0,,,,,,,,,,0055c000009OfwiAAC
+0032G00002SR6mjQAD,Judson,Jusell,0015c000021NUFcAAO,,Judson Jusell,0.0,,,,,,,,,,0055c000009OfwiAAC
+0035c00002E1Nd2AAF,Janet,van Aswegen,0015c000021NUFcAAO,,Janet van Aswegen,0.0,,* What'sApp Number- +27825584008,janet@twftw.org,,,719-437-5837,27825584008,,,0055c000009OfwiAAC
+0035c00002eJgPzAAK,Hendrik,Van Aswegen,0015c000021NUFcAAO,,Hendrik Van Aswegen,0.0,,,intercession@twftw.org,,27762458875,,,,,0055c000009OfwiAAC
+0035c00002eJrplAAC,Laurie,Westlake,0015c000021NUFcAAO,,Laurie Westlake,1.0,,,laurie@twftw.org,,,,,,,0055c000009OfwiAAC
+0035c00002eJrqKAAS,Stacy,Prater,0015c000021NUFcAAO,,Stacy Prater,0.0,,,sprater@twftw.org,,,,,,,0055c000009OfwiAAC
+0035c00002eJrqLAAS,Martin,Rediger,0015c000021NUFcAAO,,Martin Rediger,0.0,,,mrediger@twftw.org,,,,,,,0055c000009OfwiAAC
+0035c00002Nug06AAB,Tracy,Pearson,0015c000021NUFcAAO,,Tracy Pearson,0.0,,,tracy@twftw.org,,,,,,,0055c000009OfwiAAC
+0035c00002XyZhAAAV,Kobus,van Aswegen,0015c000021NUFcAAO,,Kobus van Aswegen,0.0,,*WhatsApp Number- +27832755122,kobus@twftw.org,,(719) 594-2052,719-437-3447,27832755122,,,0055c000009OfwiAAC
+003Uq000009a13eIAA,Edwin,Brooks,0015c000021NUFcAAO,,Edwin Brooks,0.0,,,elbrooks@twftw.org,,,,,,,0055c000009OfwiAAC
+003Uq000009ULGSIA4,Elizka,Fick,0015c000021NUFcAAO,,Elizka Fick,0.0,,,elizka@twftw.org,,,,,,,0055c000009OfwiAAC
+003Uq00000Do4LvIAJ,Jonathan,van Aswegen,0015c000021NUFcAAO,,Jonathan van Aswegen,0.0,,,jonathan@twftw.org,,,+27 (0)79 8769 223,,,,0055c000008YGuWAAW
+0035c00002XyMiyAAF,Chad,Entinger,0015c000025Gz5HAAS,,Chad Entinger,1.0,,55 Table has 2 liaison officers that communicate between this infinity table and ETEN.,chadentinger@deafmissions.com,,,(712) 310-3689,,,,0055c000008YGuWAAW
+0035c00002XyMkpAAF,Rob,Myers,0015c000025Gz5HAAS,,Rob Myers,0.0,,55 Table has 2 liaison officers that communicate between this infinity table and ETEN.,robm@doorinternational.org,,,(574) 855-9613,,,,0055c000008YGuWAAW
+003Uq000007U5W5IAK,Dave,Thomas,0015c00002dvQiLAAU,,Dave Thomas,0.0,,,,,,,,,,005Uq000003LVezIAG
+0035c00002rLZ0HAAW,Kurt,Nelson,0015c00002g1dhmAAA,,Kurt Nelson,1.0,,"As President and Chief Executive Officer of East-West, Kurt Nelson provides leadership and oversight to all worldwide ministry endeavors in the more than 40 countries in which East-West currently operates. After serving with East-West for 13 years, Nelson became President and CEO in June 2010. Prior to East-West, he served as Vice President of Global Missions Fellowship (GMF, now e3 Partners).
+
+Kurt holds an undergraduate degree from the University of North Carolina, a Master of Theology in World Missions from Dallas Theological Seminary, and a Doctor of Ministry in Missions Leadership from Columbia International University.",kurt.nelson@eastwest.org,dkurtnelson@gmail.com,9729414500,2145325032,,,,0055c000009P36IAAS
+003Uq000008HS8CIAW,Kathy,Berney,0015c00002g1dhmAAA,,Kathy Berney,0.0,,,kathy.berney@eastwest.org,,972-941-4508,817-999-9080,,,,005Uq000003LVezIAG
+003Uq00000ETKoHIAX,Kristen,Shuler,0015c00002g1dhmAAA,,Kristen Shuler,0.0,,,kristen.shuler@eastwest.org,,,9729414500,,,,0055c000009P36IAAS
+0035c00002rLZ6LAAW,Scott,Cheatham,0015c00002g1doGAAQ,,Scott Cheatham,1.0,,"Scott joined e3 Partners in 2018 where he first served as EVP of Operations.  In 2021 he was promoted to President and now manages the daily operations of the ministry globally.  Prior to coming to e3, Scott and his family spent two years as missionaries in India. He also has experience starting and growing businesses and planting churches both domestically and abroad. Scott has a degree in Christian Ministry from New Orleans Baptist Theological Seminary.  He and his wife Emily have three girls.",scott.cheatham@e3partners.org,,,,,,,0055c000009P36IAAS
+0035c00002rLZR8AAO,Erik,Laursen,0015c00002g1dsRAAQ,,Erik Laursen,0.0,,"In the spring of 2008, God stirred Erik’s heart to lay down “The American Dream” and pursue his dream of seeing true worship arise from every tribe in Africa. In 2011, Erik launched into ministry through a large organization in Colorado Springs where he worked directly with Christian leaders in 105+ different nations with a primary focus of overseeing offices in 37 African nations. In 2013, God led Erik to serve as President & CEO of New Covenant Missions. The experience Erik gained on the ground in so many different cultures created an ambition in his soul to mobilize the body of Christ to empower indigenous missionaries to preach the glorious news of Jesus in the darkest, most difficult and unreached areas of the world.",erik@newcovenantmissions.org,,,,,,,0055c000009P36IAAS
+0035c00002rLZI6AAO,Jared,Nelms,0015c00002g1dvUAAQ,,Jared Nelms,1.0,,"Dr. Jared Nelms serves as CEO of TTI, providing direction and vision to the global church planting strategy. Jared is a vision implementation specialist with a passion for sustainable solutions. As an experienced missionary in both Asia and Africa, Jared highly values operating in the sweet spot between the board room and grassroots level work. Jared also oversees TTI’s development of disciple making/church planting materials. Jared has a Bachelor of Science in Business Management from Florida State University, a Master of Divinity from Liberty University, and a Doctorate in Strategic Leadership from Regent University. Jared is committed to serving Jesus and leading his family and others after Christ. Jared and his wife, Amber, have two children—a son, Moses and a daughter, Grace.",jared@ttionline.org,,,,,,,0055c000009P36IAAS
+003Uq00000ETLZDIA5,JJ,Alderman,0015c00002g1dvUAAQ,,JJ Alderman,0.0,,"JJ Alderman serves in a leadership role at TTI, but he's also stewarding the Director role for Coalition of the Willing (COTW). COTW is an alliance of church planting ministries. The ACHIEVE Alliance was formed within COTW's membership by a few key leaders who were frustrated with COTW's lack of progress. ACHIEVE is not a competitor to COTW, but a catalytic partner. JJ also serves on the ACHIEVE Steering Team.",jjalderman@ttionline.org,,,9043231515,,,,0055c000009P36IAAS
+003Uq00000ETZTuIAP,Danielle,Foltz,0015c00002g1dvUAAQ,,Danielle Foltz,0.0,,Danielle Folz serves with JJ Alderman on The Timothy Initiative's staff though her role is primarily in support of Coalition of the Willing (COTW). She is in a project manager role in this capacity.,daniellefoltz@ttionline.org,,,,,,,0055c000009P36IAAS
+0035c00002rLZd9AAG,Doug,Cobb,0015c00002g1dxbAAA,,Doug Cobb,0.0,,"Doug is a major investor in the Fund and volunteers as our managing partner. An entrepreneur from Louisville, Kentucky, Doug has been working with Finishing the Task and the Issachar Initiative for a decade. Doug and his wife Gena have been privileged to fund the engagement of hundreds of unengaged people groups around the world.",dcobb@finishingfund.org,,,5024351363,,,,0055c000009P36IAAS
+0035c00002rLZGQAA4,David,Johnson,0015c00002g1dxcAAA,,David Johnson,0.0,,"For fourteen and a half years David worked in corporate America. He was with Will-Shire Oral Arts for twelve and a half years and then with Hill & Brooks Coffee Company for two years. While in Savannah Georgia in 1988 he surrendered to full time Christian ministry. He has served on six church staffs, the last two being as Executive Pastor at Hunter Street Baptist Church in Birmingham Alabama, and Senior Pastor at Dayspring Baptist Church in Mobile Alabama.
+
+ 
+
+In October of 2007 the Lord gave him four words, GIVE and GO, ASK and EXPECT. In that moment and through those words God closed the door in David’s life as a local Pastor and opened the door which has led him to do church planting around the world. A series of events led him to three men in Birmingham, John Wright, Wayne Myrick, and Scott Gurosky and Doulos Partners was born.
+David and Susan reside in Birmingham, AL. They have two children, Brian, his wife Christy and their daughter, Eby, and their son, Hutch, live in Brevard, North Carolina and Bethany, her husband Brad and their daughters Jocelyn, Annabelle, and Piper Joy live in Birmingham, AL.",djohnson@doulospartners.org,,,,,,,0055c000009P36IAAS
+0035c00002rLZWhAAO,John,Heerema,0015c00002g1eECAAY,,John Heerema,0.0,,,j.heerema@big.life,,,,,,,0055c000009P36IAAS
+003Uq00000ETiwrIAD,Dave,Gibson,0015c00002g1TlUAAU,,Dave Gibson,0.0,,"Dave Gibson is the outgoing (retiring, I believe) missions pastor at Grace Church in MN. He also serves as one of the chaplains for the Minnesota Vikings football team (NFL). Dave serves on the ACHIEVE Steering Team as the vice chair.",dave.gibson@grace.church,,,,,,,0055c000009P36IAAS
+0035c00002eLA0iAAG,Andrew,Tay,0015c00002OyLsjAAF,,Andrew Tay,0.0,,,andrew.tay@2tn.org,,,+65 98570840,,,,0052G000009uthyQAA
+0035c00002eJuIHAA0,Jacobus,Conradie,0015c00002OyLsZAAV,,Jacobus Conradie,0.0,,,kobus@luminafrica.bible,,+27 7 651 44781,+61 4 184 06443,,,,0052G000009uthyQAA
+0035c00002nOiXXAA0,Karen,Floor,0015c00002OyLsZAAV,,Karen Floor,0.0,,,,,,,,,,0052G000009uthyQAA
+0035c00002pwXFdAAM,Carien,Mills,0015c00002OyLsZAAV,,Carien Mills,0.0,,,carien@luminafrica.bible,,,,,,,0052G000009uthyQAA
+0035c00002XyEVRAA3,Johanna,Sheridan,0015c00002Oyu4fAAB,,Johanna Sheridan,1.0,,,,,,,,,,005Uq000003LVezIAG
+0035c00002eJuJ0AAK,Chris,Melville,0015c00002P1aZgAAJ,,Chris Melville,0.0,,,chris.melville@biblesociety.org.au,,,+61 419995815,,,,0052G000009uthyQAA
+0035c00002eK4btAAC,Grant,Thomson,0015c00002P1aZgAAJ,,Grant Thomson,0.0,,,gt@bsa.org.au,,,,,,,0052G000009uthyQAA
+0035c00002eK4duAAC,Stuart,Cameron,0015c00002P1aZgAAJ,,Stuart Cameron,0.0,,,stuart.cameron@biblesociety.org.au,,,+61 403 741 776,,,,0052G000009uthyQAA
+0035c00002eK4dWAAS,Louise,Sherman,0015c00002P1aZgAAJ,,Louise Sherman,0.0,,,louise.sherman@biblesociety.org.au,,,+61 412 232 698,,,,0052G000009uthyQAA
+0035c00002n0oyMAAQ,Andre,Minnaar,0015c00002P1aZgAAJ,,Andre Minnaar,0.0,,,andre.minnaar@biblesociety.org.au,,,+61 421 830 363,,,,0052G000009uthyQAA
+0035c00002eK4dBAAS,Max,Sahl,0015c00002P1iqxAAB,,Max Sahl,0.0,,,ceo@wycliffe.org.au,,+61 3 9712 2701,+61 432867078,,,,0052G000009uthyQAA
+0035c00002eK4dVAAS,David,Wake,0015c00002P1iqxAAB,,David Wake,0.0,,,deputyceo@wycliffe.org.au,,,+61 439 347 990,,,,0052G000009uthyQAA
+0035c00002eK4eTAAS,Jen,Brownhill,0015c00002P1irlAAB,,Jen Brownhill,0.0,,,jenb@ywamperth.org.au,,,+61 421938810,,,,0052G000009uthyQAA
+003Uq00000PEPBZIA5,Sabina,Cappello Lee,001Uq000007CCPZIA4,,Sabina Cappello Lee,0.0,,International Coordinator WINS (Women of Influence Summit) is a Project of Global2033.,sabinacappello@gmail.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000PES2tIAH,Father Bernard,de TERVES,001Uq000007CCPZIA4,,Father Bernard de TERVES,0.0,,,frbernard@global2033.org,,,,,,,0055c00000AJ8G2AAL
+003Uq00000PEVOwIAP,Henry,Cappello,001Uq000007CCPZIA4,,Henry Cappello,0.0,,,henrycappello@gmail.com,,,,,,,0055c00000AJ8G2AAL
+003Uq000009raRdIAI,Jonathan,Huguenin,001Uq000007CVyTIAW,,Jonathan Huguenin,1.0,,,jhuguenin@fcbhmail.org,jonathan@closethebiblegap.com,,,,,,0055c00000AJ8G2AAL
+003Uq00000IrjWBIAZ,Erika,Andujar,001Uq000007CVyTIAW,,Erika Andujar,0.0,,Erika is the leader of the CtBG Prayer Working Group.,erikaandujar@biblemediagroup.com,,,,,,,005Uq00000EYyu5IAD
+003Uq000007HgEvIAK,James,Taylor,001Uq000008FfnpIAC,,James Taylor,1.0,,,james@generositypath.org,,,,,,,005Uq000003LVezIAG
+003Uq000007Hh69IAC,Emanuel,Bistrian,001Uq000008FfnpIAC,,Emanuel Bistrian,0.0,,,emanuel@generositypath.org,,,,,,,005Uq000003LVezIAG
+003Uq00000Ok4yvIAB,Lucy,McDonald,001Uq000008FfnpIAC,,Lucy McDonald,0.0,,,lucy@generositypath.org,,,,,,,0055c00000AJ8G2AAL
+003Uq000008vdbBIAQ,Bob,Barker,001Uq0000097u0KIAQ,,Bob Barker,0.0,,,bbarker@deafpathway.com,,,(469) 939-2256,,,,0055c000008YGuWAAW
+003Uq000008veDtIAI,Dan,Eberle,001Uq0000097u0KIAQ,,Dan Eberle,0.0,,,dane@doorinternational.org,,,(585) 297-4738,,,,0055c000008YGuWAAW
+003Uq000008vg7bIAA,Adan,Burke,001Uq0000097u0KIAQ,,Adan Burke,0.0,,,adan_burke@wycliffe.org,,,(612) 805-2620,,,,0055c000008YGuWAAW
+003Uq000008vnH9IAI,Mark,Lowenstein,001Uq0000097u0KIAQ,,Mark Lowenstein,0.0,,,mark.lowenstein@pioneerbible.org,,,(480) 740-6362,,,,0055c000008YGuWAAW
+003Uq000008vk9eIAA,Oleksandr,Ray,001Uq0000097vE9IAI,,Oleksandr Ray,0.0,,"Olesandr is now a member of this workgroup, no longer serving as co-lead.",oli.raik@wwin.ac,,,+1 972546538130,,,,0055c000008YGuWAAW
+003Uq000008wa8AIAQ,Gabriella,Bontrager,001Uq0000097vE9IAI,,Gabriella Bontrager,0.0,,Fuller Institute of Technology,gabriellabontrager@fuller.edu,,,,,,,0055c000008YGuWAAW
+003Uq000008waUkIAI,Frank,Griffin,001Uq0000097vE9IAI,,Frank Griffin,0.0,,Fuller Institute of Technology,frank@griffized.com,,,,,,,0055c000008YGuWAAW
+003Uq000008wb4EIAQ,Robin,Falsettini,001Uq0000097vE9IAI,,Robin Falsettini,0.0,,WWIN,,,,,,,,0055c000008YGuWAAW
+003Uq000008wc57IAA,Nick,Jungheim,001Uq0000097vE9IAI,,Nick Jungheim,0.0,,Deaf Pathways,chicagocubsfan73@gmail.com,,,,,,,0055c000008YGuWAAW
+003Uq000008wcEoIAI,Vitaly,Zvarish,001Uq0000097vE9IAI,,Vitaly Zvarish,0.0,,WWIN,vzvarych@wwin.ac,,,,,,,0055c000008YGuWAAW
+003Uq000008wdAtIAI,Stuart,Thiessen,001Uq0000097vE9IAI,,Stuart Thiessen,0.0,,DOOR International,stuartt@doorinternational.org,,,,,,,0055c000008YGuWAAW
+003Uq000008wdpBIAQ,Matt,Sickon,001Uq0000097vE9IAI,,Matt Sickon,0.0,,Pioneer Bible Translators,matt.sickon@iscteam.org,,,,,,,0055c000008YGuWAAW
+003Uq000008wFDRIA2,Luka,Manevich,001Uq0000097vE9IAI,,Luka Manevich,0.0,,WWIN,luka.manevich@wwin.ac,,,,,,,0055c000008YGuWAAW
+003Uq000008wL9MIAU,Lee,Joon,001Uq0000097vE9IAI,,Lee Joon,0.0,,APSDA,,,,,,,,0055c000008YGuWAAW
+003Uq000008wLNsIAM,Jaclyn,Seay,001Uq0000097vE9IAI,,Jaclyn Seay,0.0,,ABS,jseay@americanbible.org,,,,,,,0055c000008YGuWAAW
+003Uq000008wOSbIAM,Jenny,Storey,001Uq0000097vE9IAI,,Jenny Storey,0.0,,ADVODAH,jenny@digitaltraininglibrary.org,,,,,,,0055c000008YGuWAAW
+003Uq000008wTl9IAE,Teri,Miles,001Uq0000097vE9IAI,,Teri Miles,0.0,,SIL,teri_miles@sil.org,,,,,,,0055c000008YGuWAAW
+003Uq000008wVtHIAU,Joshua,Nemecek,001Uq0000097vE9IAI,,Joshua Nemecek,0.0,,SIL,joshua_nemecek@sil.org,,,,,,,0055c000008YGuWAAW
+003Uq000008wY7zIAE,Ngo Quoc,Hoa,001Uq0000097vE9IAI,,Ngo Quoc Hoa,0.0,,APSDA,,,,,,,,0055c000008YGuWAAW
+003Uq00000977kVIAQ,Caio,Cascaes,001Uq0000097vE9IAI,,Caio Cascaes,0.0,,,caioc@doorinternational.org,,,,,,,0055c000008YGuWAAW
+003Uq000008vhVgIAI,Binu,Alexander,001Uq00000981hmIAA,,Binu Alexander,0.0,,Rare attender,binu_alexander@partnerships.global,,,,,,,0055c000008YGuWAAW
+003Uq000008vi1OIAQ,Melvin,Tan,001Uq00000981hmIAA,,Melvin Tan,0.0,,Inactive - APSDA,apsda.melvintan@gmail.com,,,,,,,0055c000008YGuWAAW
+003Uq000008viHUIAY,Oliver,Dixon,001Uq00000981hmIAA,,Oliver Dixon,0.0,,Progress Bible - Rare attender,oliver_dixon@sil.org,,,,,,,0055c000008YGuWAAW
+003Uq000008viz9IAA,Stephen,Jones,001Uq00000981hmIAA,,Stephen Jones,0.0,,Deaf Bible Society,stephen@deafbiblesociety.com,,,,,,,0055c000008YGuWAAW
+003Uq000008vj7TIAQ,Joan,Spanne,001Uq00000981hmIAA,,Joan Spanne,0.0,,Inactive - SIL,joan_spanne@sil.org,,,,,,,0055c000008YGuWAAW
+003Uq000008vjqYIAQ,Jose Irish,Pascual,001Uq00000981hmIAA,,Jose Irish Pascual,0.0,,Inactive - APSDA,apsda.joseirish@gmail.com,,,,,,,0055c000008YGuWAAW
+003Uq000008vlP1IAI,Lisa,Craye,001Uq00000981hmIAA,,Lisa Craye,0.0,,Hands with Words,lisa@handswithwords.org.za,,,,,,,0055c000008YGuWAAW
+003Uq000008vnqnIAA,Yuki,Yamada,001Uq00000981hmIAA,,Yuki Yamada,0.0,,SIL Director of GSLT,yuki_yamada@sil.org,,,,,,,0055c000008YGuWAAW
+003Uq000008vnx5IAA,Albert,Bickford,001Uq00000981hmIAA,,Albert Bickford,0.0,,DOOR International,aad_lps_gslt@sil.org,,,,,,,0055c000008YGuWAAW
+003Uq000008vomlIAA,Beth,Cook,001Uq00000981hmIAA,,Beth Cook,0.0,,DOOR International,bethc@doorinternational.org,,,,,,,0055c000008YGuWAAW
+003Uq000008vuIcIAI,Adam,Zaelit,001Uq00000981hmIAA,,Adam Zaelit,0.0,,DBS,adam@deafbiblesociety.com,,,,,,,0055c000008YGuWAAW
+003Uq000008vw5tIAA,Lisa,Pak,001Uq00000981hmIAA,,Lisa Pak,0.0,,Not Active - Saddleback Church,lisap@saddleback.com,,,,,,,0055c000008YGuWAAW
+003Uq000008vxwPIAQ,Heo,Yong,001Uq00000981hmIAA,,Heo Yong,0.0,,APSDA - inactive,heoinyong7710@gmail.com,,,,,,,0055c000008YGuWAAW
+003Uq000008vxYDIAY,Alain-Daniel,Wa-Baguma,001Uq00000981hmIAA,,Alain-Daniel Wa-Baguma,0.0,,Progress Bible,alain-daniel_wa-baguma@sil.org,,,,,,,0055c000008YGuWAAW
+003Uq000008vu65IAA,Nathan,Fair,001Uq00000986mFIAQ,,Nathan Fair,0.0,,Seed Company - Inactive,nathan_fair@tsco.org,,,,,,,0055c000008YGuWAAW
+003Uq000008vvTKIAY,Valerie,Barker,001Uq00000986mFIAQ,,Valerie Barker,0.0,,Deaf Pathways,vbarker@deafpathway.com,,,,,,,0055c000008YGuWAAW
+003Uq000008w1aDIAQ,Riho,Kurg,001Uq00000986mFIAQ,,Riho Kurg,0.0,,EDBCT,rihokurg.estonia@gmail.com,,,,,,,0055c000008YGuWAAW
+003Uq000008w4LHIAY,Ron,Lawer,001Uq00000986mFIAQ,,Ron Lawer,0.0,,DOOR International,ronl@doorinternational.org,,,,,,,0055c000008YGuWAAW
+003Uq000008w5xJIAQ,Kim,Yong Hwan,001Uq00000986mFIAQ,,Kim Yong Hwan,0.0,,,yongwhank5041@gmail.com,,,,,,,0055c000008YGuWAAW
+003Uq000008w7FNIAY,Szabi,Weer,001Uq00000986mFIAQ,,Szabi Weer,0.0,,Deaf PAthways,sweer@deafpathway.com,,,,,,,0055c000008YGuWAAW
+003Uq000008w7PbIAI,Jason,Suhr,001Uq00000986mFIAQ,,Jason Suhr,0.0,,Deaf Harbor,jsuhr@deafharbor.org,,,,,,,0055c000008YGuWAAW
+003Uq000008w88hIAA,Allan,Orozco,001Uq00000986mFIAQ,,Allan Orozco,0.0,,DOOR / ADSLA,allano@doorinternational.org,,,,,,,0055c000008YGuWAAW
+003Uq000008w9LDIAY,Elizabeth,Sampson,001Uq00000986mFIAQ,,Elizabeth Sampson,0.0,,,esampson@biblesocieties.org,,,+233 27 537 1361,,,,0055c000008YGuWAAW
+003Uq000008wB9lIAE,Eiji,Matsumoto,001Uq00000986mFIAQ,,Eiji Matsumoto,0.0,,,apsda.matsumoto@gmail.com,,,+81 70 4091 9625,,,,0055c000008YGuWAAW
+003Uq000008wJP4IAM,Joseph,Sensor,001Uq00000986mFIAQ,,Joseph Sensor,0.0,,,bilatteam@gmail.com,,,,,,,0055c000008YGuWAAW
+003Uq000008wKONIA2,Jan,Zacharisassen,001Uq00000986mFIAQ,,Jan Zacharisassen,0.0,,EDCBT,jantauzac@gmail.com,,,,,,,0055c000008YGuWAAW
+003Uq00000EQDS4IAP,Ed,Weaver,001Uq00000F47jsIAB,,Ed Weaver,0.0,,,edweaver@spoken.org,,,,,,,0055c000008Y92hAAC
+003Uq00000ETSSaIAP,Doug,Lucas,001Uq00000F7Ph6IAF,,Doug Lucas,1.0,,Doug Lucas is the CEO of Team Expansion and part of the ACHIEVE Alliance Steering Team.,dlucas@teamexpansion.org,,,,,,,0055c000009P36IAAS
+003Uq00000LgPI1IAN,Dale,Sutherland,001Uq00000MgLTBIA3,,Dale Sutherland,1.0,,"We are a faith-based non-profit specifically geared to find, fuel, and fund gospel proclaiming ministries. IGI believes that sharing the Good News of Jesus Christ can be exponentially impacted by Christians using their God-given talents. We find, fuel, and fund leaders to innovate and scale gospel impact. IGI provides a sustained message of Jesus Christ while solving real world problems with an innovative approach.",dale@code3.org,,,5714360919,,,,0055c000009P36IAAS
+003Uq000008vlfEIAQ,Terri,Chapman,001Uq00000NHVlOIAX,,Terri Chapman,1.0,,,terri_chapman@sil.org,,,,,,,0055c000008YGuWAAW
+003Uq00000Ok2c5IAB,Robert,Collins,001Uq00000PkicRIAR,,Robert Collins,0.0,,,rcollins@trustbridgeglobal.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000Ok3jRIAR,Jim,Rich,001Uq00000PkicRIAR,,Jim Rich,0.0,,,jrich@trustbridgeglobal.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000Ok4vdIAB,Deivid,Rioferio,001Uq00000PkicRIAR,,Deivid Rioferio,0.0,,,drioferio@trustbridgeglobal.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000Ojt1ZIAR,Cindy,Cheeks,001Uq00000PksS1IAJ,,Cindy Cheeks,0.0,,,cindy@generouschurch.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000Ok041IAB,Patrick,Johnson,001Uq00000PksS1IAJ,,Patrick Johnson,0.0,,,patrick@generouschurch.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000Ok4KXIAZ,Jessica,Ulrich,001Uq00000PksS1IAJ,,Jessica Ulrich,0.0,,,jessica@generouschurch.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000PEWzfIAH,David,Bowden,001Uq00000QHDoLIAX,,David Bowden,0.0,,,david@spokengospel.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000PEnnIIAT,Dan,Brokke,001Uq00000QHEqpIAH,,Dan Brokke,0.0,,,dan.brokke@gomovement.world,,,+1 (719) 930-9514,,,,0055c00000AJ8G2AAL
+003Uq00000PEUw7IAH,Esteban,Shedd,001Uq00000QHKjMIAX,,Esteban Shedd,0.0,,,esteban@streetlightsbible.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000PEjLWIA1,Jeff,Moore,001Uq00000QHPO2IAP,,Jeff Moore,0.0,,,jeff.moore@youversion.com,,,,,,,0055c00000AJ8G2AAL
+003Uq00000PEc8mIAD,Kyle,Henderson,001Uq00000QHWirIAH,,Kyle Henderson,0.0,,,kyle@baptistworldalliance.org,,,,,,,0055c00000AJ8G2AAL
+003Uq00000QqDdJIAV,001Uq00000Rxp2CIAR,Peter,Huang,Peter Huang,peter.huang@eten.bible,,False,,peter.huang@eten.bible,,8177275359,,005Uq000003LVezIAG,,,

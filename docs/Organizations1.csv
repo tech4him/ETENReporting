@@ -1,0 +1,142 @@
+_,X18_Digit_Account_ID__c,Name,Phone,BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry,Website,npe01__One2OneContact__c,FGM_Base__EIN__c,OwnerId,Description,RecordTypeId
+[Account],0015c000025Gz5HAAS,55 Table,(817) 791-7177 x___,2804 WORCESTER COURT,Arlington,TX,76001,United States,,0035c00002XyMiyAAF,,0055c000008YGuWAAW,,0125c0000016kFXAAY
+[Account],001Uq0000097u0KIAQ,55 Table Admin Team,,,,,,,,,,0055c000008YGuWAAW,,0125c0000016kFXAAY
+[Account],001Uq00000NIbezIAD,55 Table CCW (Cross Collaboration Workgroup),,,,,,,,0032G00002eygAcQAI,,0055c000008YGuWAAW,,0125c0000016kFXAAY
+[Account],001Uq00000981hmIAA,55 Table Data WG,,,,,,,,,,0055c000008YGuWAAW,,0125c0000016kFXAAY
+[Account],001Uq00000NHgiMIAT,55 Table Deaf Tech (AI and Innovation),,,,,,,,003Uq000008vnH9IAI,,0055c000008YGuWAAW,Mark is the co-leader of this workgroup and a member of the Admin team,0125c0000016kFXAAY
+[Account],001Uq00000NHal2IAD,55 Table FBI (Full Bible Initiative),,,,,,,,003Uq000008vdbBIAQ,,0055c000008YGuWAAW,co-leader for this workgroup and member of the 55 Table Admin team,0125c0000016kFXAAY
+[Account],001Uq00000986mFIAQ,55 Table Field Strategy WG,,,,,,,,,,0055c000008YGuWAAW,,0125c0000016kFXAAY
+[Account],001Uq00000NHVlOIAX,55 Table GAP (Goals and Progress),,,,,,,,003Uq000008vlfEIAQ,,0055c000008YGuWAAW,Terri is the co-leader of this workgroup and a member of the 55 Table Admin team,0125c0000016kFXAAY
+[Account],001Uq0000097vE9IAI,55 Table Tools & Training,,,,,,,,,,0055c000008YGuWAAW,,0125c0000016kFXAAY
+[Account],0015c00002g1TlUAAU,ACHIEVE Alliance,,,,,,,,,,0055c000009P36IAAS,ACHIEVE = A Church In Every Village Everywhere,0125c000000uXllAAE
+[Account],0012G00001mDvcAQAS,American Bible Society,(215) 309-0900,101 North Independence Mall East FL8,Philadelphia,PA,19106-2155,United States,https://www.americanbible.org/,003Uq00000EQPyoIAH,13-1623885,0055c000009OfwiAAC,"Making the Bible available to every person in a language and format each can understand and afford, so all people may experience its life-changing message.",0121N000001ay18QAA
+[Account],001Uq00000QHWirIAH,Baptist World Alliance,,,,,,,https://baptistworld.org/,,,0055c00000AJ8G2AAL,"""Networking the Baptist Family to Impact the World for Christ.""",0121N000001ay18QAA
+[Account],0015c00002P1aZgAAJ,Bible Society of Australia,,,,,,,https://www.biblesociety.org.au/,,,0052G000009uthyQAA,,0121N000001ay18QAA
+[Account],0012G00001mE1IvQAK,Biblica,(719) 488-9200,300 General Palmer Drive #4,Palmer Lake,CO,80133-1871,US,https://www.biblica.com/,0035c00002eIlERAA0,84-1194554,0055c000009OtFYAA0,,0121N000001ay18QAA
+[Account],0015c00002g1eECAAY,Biglife,,PO Box 110431,Naples,FL,34108,US,https://big.life/,,65-1060939,0055c000009P36IAAS,"From Asia to Africa, Europe to the Americas, Biglife finds the persons of peace and empowers them to share the Good News—where they live. Biglife is not a church and more than a ministry. Biglife is a way for believers all over the world to reach others for Christ, disciple them, and multiply their numbers. Biglife is a movement.",0121N000001ay18QAA
+[Account],0015c00002Oyu4zAAB,Bless AZ,,,,,,,,,,005Uq000003LVezIAG,GOAL: Recruit 1000 families into the Arizona foster care support system over three years.,0121N000001ay18QAA
+[Account],0011N00001FG22LQAT,Church of the Nazarene,(913) 577-2800,17001 Prairie Star Parkway,Lenexa,KS,66220,US,http://www.nazarene.org/sdmi,,,0051N000005pMH7QAM,,0121N000001ay18QAA
+[Account],001Uq000007CVyTIAW,Close the Bible Gap,,,,,,,https://closethebiblegap.com/,003Uq000009raRdIAI,,0051N000005pMH7QAM,"A collaborative group of Scripture distribution organizations is focused on solving Bible access and delivery to the most under-resourced, remote, and restricted churches on Earth. The realization: no single organization and/or investor can tackle this challenge alone. It will take a Kingdom alliance. Thus, the Close the Bible Gap collaborative is exploring the potential for a formalized collective impact alliance to address and bridge the distance between Bible availability and Bible need",0125c000000uXllAAE
+[Account],0015c00002Oyu4pAAB,Commercial Sexual Exploitation of Children,,,,,,,,0035c00002XyEVRAA3,,005Uq000003LVezIAG,"CSEC is an industry with “consumers” (people who buy sex with minors or access CSAM), “suppliers” (child sex traffickers and disseminators of CSAM), and “supply” (victims of child sex trafficking and victims of exploitation through CSAM). In addition_x000D_
+to addressing the personal, spiritual, and economic factors that contribute to CSEC, we advocate for a collective approach to this issue that diminishes both the demand and the supply in the industry, summarized as:_x000D_
+_x000D_
+Diminishing the demand_x000D_
+• Identify, arrest, and prosecute buyers of sex with minors_x000D_
+• Identify, arrest, and prosecute possessors of CSAM_x000D_
+• Spread information about the evils of CSEC_x000D_
+_x000D_
+Diminishing the supply_x000D_
+• Identify, arrest, and prosecute child sex traffickers_x000D_
+• Identify, arrest, and prosecute disseminators of CSAM_x000D_
+• Identify and remove CSAM from the Internet_x000D_
+• Identify, rescue, and restore victims of child sex trafficking",0121N000001ay18QAA
+[Account],0012G00001zc6J0QAI,"Deaf Bible Society, Inc.",(800) 654-3690,P.O. Box 180818,Arlington,TX,76096,United States,deaf.bible,0032G00002eygAcQAI,47-4285852,0055c000008YGuWAAW,,0121N000001ay18QAA
+[Account],001Uq000007jf6DIAQ,Diaspora Working Group,,,,,,,,003Uq000007bILJIA2,,0055c000009OdZ3AAK,"The Diaspora Working Group serves the ETEN Alliance by attempting to bridge the remaining Bible translation gap through shared Diaspora translation practices and efforts._x000D_
+_x000D_
+All DWG files are stored in a Google Drive sponsored by Mission Mutual:_x000D_
+https://drive.google.com/drive/folders/1Yz85CPc9lj90Ff-GKQOI_vap5NxqvoKY?usp=drive_link_x000D_
+_x000D_
+For file access, please contact Mission Mutual's Blake Anderson at blake@missionmutual.org",0125c0000016kFXAAY
+[Account],0015c00002g1dxcAAA,Doulos Partners,2053133034,"700 Montgomery Highway, Suite 100",Birmingham,AL,35216,United States,https://doulospartners.org/,,,0055c000009P36IAAS,"Doulos Partners is a nonprofit in Birmingham AL that acts as a missions mutual fund for other Christian nonprofits. What does that mean? We ultimately provide financial assistance to organizations across the world that share our vision and mission._x000D_
+The purpose is simple: to empower indigenous leaders that God is raising up around the world to reach their own countries and people groups with the gospel through evangelism, discipleship, and church planting.",0121N000001ay18QAA
+[Account],0011N00001F1YxTQAV,Doxa Foundation,,1984 Kates Ct.,Duluth,GA,30097-5160,US,,,,0051N000005pMH7QAM,,0121N000001ay18QAA
+[Account],0015c00002g1doGAAQ,e3 Partners,,"2001 West Plano Parkway, suite 2600",Plano,TX,75075,United States,https://e3partners.org/,0035c00002rLZ6LAAW,,0055c000009P36IAAS,"We equip God’s people to evangelize His world by establishing healthy, multiplying, transformative churches everywhere._x000D_
+Our mission statement features an effective, 3-pronged strategy._x000D_
+_x000D_
+EQUIP_x000D_
+We equip believers to take ownership of the Great Commission._x000D_
+_x000D_
+EVANGELIZE_x000D_
+We send believers into local and global communities to evangelize the lost._x000D_
+_x000D_
+ESTABLISH_x000D_
+We partner with believers to establish local churches across the globe.",0121N000001ay18QAA
+[Account],0015c00002g1dhmAAA,East-West,9729414500,2001 West Plano Parkway,Plano,TX,75075,United States,https://www.eastwest.org/,0035c00002rLZ0HAAW,,0055c000009P36IAAS,"Our Vision_x000D_
+The vision of East-West is to glorify God by multiplying followers of Jesus in the spiritually darkest areas of the world._x000D_
+_x000D_
+Our Mission_x000D_
+The mission of East-West is to mobilize the Body of Christ to evangelize the lost and equip local believers to multiply disciples and churches among the unreached.",0121N000001ay18QAA
+[Account],0015c000025HVTrAAO,ETEN Alliance,,,,,,,https://eten.bible,,,0052G00000AUhyCQAT,,0125c000000uXllAAE
+[Account],001Uq00000FGzjuIAD,ETEN Prayer Working Group,,,,,,,,003Uq000009rZH6IAM,,0055c00000AJ8G2AAL,"The Prayer Working Group (PWG) is commissioned to serve Alliance agencies as they engage thousands in a global prayer movement by resourcing prayer capacity, convening prayer and offering strategic intercession toward the fulfillment of the 2033 All Access Goals._x000D_
+_x000D_
+All PWG files are stored in a Google Drive sponsored by Pioneer Bible Translators: _x000D_
+https://drive.google.com/drive/u/1/folders/0AOVYg-N05BehUk9PVA_x000D_
+_x000D_
+For file access, please contact PBT's Global Security Specialist: Stephen Peterson at stephen.peterson@pioneerbible.org.",0125c0000016kFXAAY
+[Account],0015c00002dvKxeAAE,ETEN Steering Committee,,,,,,,,,,0055c000008Y92hAAC,,0125c0000016kFXAAY
+[Account],001Uq00000QHMbVIAX,Evangelism Alliance,,,,,,,,,,0055c00000AJ8G2AAL,"Collaboration stakeholders: Go Movement, Innovations for Gospel Impact, Baptist World Alliance, Evangelism Explosion, Oasis World Ministries, The Message Trust, Cru-Campus ministries, Jesus Film, Reaching Unreached Nations, Every Home, Luis Palau Association, Child Evangelism Fellowship, Dare2Share. Early conversations exploring a merge between Innovations for Gospel Impact and GO Movement.",0125c000000uXllAAE
+[Account],0011N00001F17OoQAJ,Every Tribe Every Nation,,,,,,,,,,0051N000005pMH7QAM,,0121N000001ay18QAA
+[Account],0012G00001gogkzQAA,Feeding Matters,,,,,,,,,20-8095826,0052G000005PmXsQAK,,0121N000001ay18QAA
+[Account],0015c00002dvQiLAAU,Field Strategy Working Group,,,,,,,,,,0055c000009OtFYAA0,"The Field Strategy Working Group files are located in Google Drive: https://drive.google.com/drive/folders/1iAMrnxDEo1WuJ4Z2RJuL9Eipe6UI56u1?usp=sharing_x000D_
+FSWG Identity Document: https://docs.google.com/document/d/1AiH2vKiKMqj-_L0JNS5ZiM9Q7r3EbB6WmbHN9csK-7I/edit?usp=sharing",0125c0000016kFXAAY
+[Account],0015c00002g1dxbAAA,Finishing Fund,5024351363,,Prospect,KY,,,https://www.finishingfund.org/,,,0055c000009P36IAAS,"Generous Christians want to give well, but many are missing a great opportunity:_x000D_
+The chance to fulfill Jesus’ command to “make disciples of every nation” for our generation. The Finishing Fund makes it easy to invest in that effort, so that our partners can experience the joy of participating in the sprint to the finish of the Great Commission.",0121N000001ay18QAA
+[Account],001Uq000008FfnpIAC,GenerosityPath,,,,,,,https://www.generositypath.org/,003Uq000007HgEvIAK,,0051N000005pMH7QAM,"Generosity Path is building a movement to see God’s Kingdom come through releasing individual hearts to live generously. They believe this has the power to not only change individual lives, but to bring positive and powerful change for churches, communities, countries and the entire world.",0121N000001ay18QAA
+[Account],001Uq00000PksS1IAJ,GenerousChurch,,,,,,,https://generouschurch.com/,,,0055c00000AJ8G2AAL,Serving global church and ministry networks in growing Biblical generosity. GenerousChurch engages over 105 countries partnering with large and small networks to train Biblical generosity. Implementing member of Global Generosity Alliance.,0121N000001ay18QAA
+[Account],001Uq000007CCPZIA4,Global 2033,,,,,,,https://global2033.org/,,,0051N000005pMH7QAM,"A collaborative group of Catholic and Christian, Gospel-centered, global leaders, movements and networks focused on equipping and mobilizing 133M Catholics to become Missionary Disciples so that 2B+ people across the globe can hear and respond to the Good News of Jesus Christ by 2033.",0125c000000uXllAAE
+[Account],001Uq000007CXtpIAG,Global Generosity Alliance,,,,,,,,003Uq000007Hh69IAC,,0051N000005pMH7QAM,"Generosity Path is building a movement to see God’s Kingdom come through releasing individual hearts to live generously. We believe this has the power to not only change their lives, but to bring positive and powerful change for churches, communities, countries and the entire world.",0125c000000uXllAAE
+[Account],001Uq00000QHEqpIAH,Go Movement,,,,,,,https://www.gomovement.world/,,,0055c00000AJ8G2AAL,"Go Movement exists ""to mobilize and equip believers to fulfill the Great Commission through prayer, care, sharing the Gospel, and making disciples.”",0121N000001ay18QAA
+[Account],0012G00001mCmATQA0,GROVE,,,,,,,,,,0052G000005Phx2QAC,,0121N000001ay18QAA
+[Account],001Uq000007BxGrIAK,Hardest Places On Earth,,,,,,,,,,0051N000005pMH7QAM,Prospective Alliance listed in PP presentation to Staff Working Retreat YE 2023,0125c000000uXllAAE
+[Account],0015c000021NI9XAAW,Hosanna/Faith Comes By Hearing,(505) 881-3321,2421 Aztec Rd NE,Albuquerque,NM,87107,USA,,,85-0223225,0055c000008Y92hAAC,,0121N000001ay18QAA
+[Account],0015c00002OyLsjAAF,IllumiNations Asia,,,,,,,,,,0052G000009uthyQAA,,0125c000000uXllAAE
+[Account],0015c00002OyLsoAAF,IllumiNations Europe,,,,,,,,,,0052G000009uthyQAA,,0125c000000uXllAAE
+[Account],001Uq00000GeFLnIAN,illumiNations Implementation Team,,,,,,,,003Uq000009rZH6IAM,,0055c00000AJ8G2AAL,"The illumiNations Implementation Team represents Servant Leaders of the ETEN Advancement Engine implementation teams, representing Marketing and Messaging, Gathering, Development and Prayer Working Groups. This team meets bi-monthly to foster a unified illumiNations brand experience fueling the ETEN Alliance._x000D_
+_x000D_
+All Working Group Purpose Statements and files are stored in a Google Drive sponsored by Mission Mutual:_x000D_
+https://drive.google.com/drive/folders/15QLBng94dXKcXyGx7qxKIp-DIaORo5g2?usp=sharing _x000D_
+_x000D_
+For file access, please contact the Vice President of Prayer and Advancement at Mission Mutual, Laura Gish: laura@missionmutual.org",0125c0000016kFXAAY
+[Account],001Uq00000MgLTBIA3,Innovations for Gospel Impact,5714360919,,,,,,https://igiministry.org/,003Uq00000LgPI1IAN,,0055c000009P36IAAS,"We are a faith-based non-profit specifically geared to find, fuel, and fund gospel proclaiming ministries. We find, fuel, and fund leaders to innovate and scale gospel impact. IGI provides a sustained message of Jesus Christ while solving real world problems with an innovative approach.",0121N000001ay18QAA
+[Account],0011N00001FFYHiQAP,Logos Fund / Luzerne Foundation,,3526 W Gulf Dr.,Sanibel,FL,33957-5410,US,,,,0051N000005pMH7QAM,,0121N000001ay18QAA
+[Account],0015c00002OyLsZAAV,LuminAfrica,,,,,,,www.luminafrica.bible,,,0052G000009uthyQAA,,0125c000000uXllAAE
+[Account],0012G00001mwY74QAE,Lutheran Bible Translators,(660) 225-0810,"PO Box 789, 205 S Main Street",Concordia,MO,64020,USA,https://lbt.org/,0035c00002XyZh9AAF,95-2630437,0055c000009OfwiAAC,"MISSION: Lutheran Bible Translators makes God’s Word accessible to those who do not yet have it in the language they understand best._x000D_
+VISION: Vibrant Christian communities, deeply rooted in God’s Word, engaging fully in God’s mission, in this generation._x000D_
+VALUES: Capacity, Engagement, Translation",0121N000001ay18QAA
+[Account],0011N00001FFYxwQAH,Maclellan Foundation,(423) 755-1366,820 Broad St. Ste 300,Chattanooga,TN,37402-2604,US,http://www.maclellan.net/cms/home,,,0051N000005pMH7QAM,,0121N000001ay18QAA
+[Account],0011N00001F0sdqQAB,Mission Mutual,,"320 Westway Place, Suite 505",Arlington,TX,76018,US,,,,0051N000005pMH7QAM,,0121N000001ay18QAA
+[Account],0011N00001FFbqYQAT,Nelson Family Foundation,,760 E Britton Rd,Oklahoma City,OK,73114-7711,US,,,,0051N000005pMH7QAM,,0121N000001ay18QAA
+[Account],0015c00002g1dsRAAQ,New Covenant Missions,,PO Box 218,Coeur d'Alene,ID,83816,US,https://www.newcovenantmissions.org/,,82-0535692,0055c000009P36IAAS,"New Covenant Missions (formerly New Covenant Foundation) was formed in August 2001 as a 501 (c) 3 non-profit organization by a group of Christian men in the Spokane, Washington area in the United States._x000D_
+The founding principles were driven by the desire of indigenous Africans to evangelize their own people, provide for their own needs, plant locally sustained churches in unreached villages, and see spiritual and physical transformation in their communities._x000D_
+The work was originally inspired by the indigenous Ethiopian believers and expanded to nearly every corner of Ethiopia within 12 years. Since 2013, the ministry has expanded beyond Ethiopia to work among 277 unreached people groups in 28 nations located within the tension belt of Africa._x000D_
+All of the work on the ground is led by highly educated & experienced indigenous African leaders!",0121N000001ay18QAA
+[Account],0015c00002dvQVRAA2,OBT Affinity Table,,,,,,,,0035c00002nPCQ2AAO,,0055c000008Y92hAAC,"The OBT Table Files are managed in Google Drive: https://drive.google.com/drive/folders/1K0glT9sAtX5POWpxwRvcjf1EZrZJGVvv?usp=sharing_x000D_
+OBT Table Identity Document: https://docs.google.com/document/d/12FCvaTxCcL68-mnuNClI3nM0CwPDjL0iLBWW3qnTwuE/edit?usp=sharing",0125c0000016kFXAAY
+[Account],0015c00002OyLsaAAF,Oceania BT Collective Impact Alliance,,,,,,,,,,0052G000009uthyQAA,,0125c000000uXllAAE
+[Account],0012G00001mE6C3QAK,Pioneer Bible Translators,(214) 699-4300,7255 West Camp Wisdom Rd,Dallas,TX,75236,USA,https://www.pioneerbible.org/,0032G00002S1ZnHQAV,23-7433923,0055c000009OtFYAA0,,0121N000001ay18QAA
+[Account],0011N00001FG0ZGQA1,Sager Foundation,,2101 S Air Depot Blvd,Edmond,OK,73103,,,,,0051N000005pMH7QAM,,0121N000001ay18QAA
+[Account],0015c00002Oyu4fAAB,Salt Exchange,,,,,,,https://saltexchange,0035c00002XyEVRAA3,,005Uq000003LVezIAG,An alliance of Philanthropists collectively driving change across critical global needs.,0121N000001ay18QAA
+[Account],0012G00001mEXd2QAG,SIL International,(469) 939-6583,7500 W Camp Wisdom Rd,Dallas,TX,75236,United States,https://www.sil.org,0035c00002eJtYHAA0,75-1840827,0055c000009OdZ3AAK,,0121N000001ay18QAA
+[Account],001Uq00000QHDoLIAX,Spoken Gospel,,,,,,,www.spokengospel.com,,,0055c00000AJ8G2AAL,"Spoken Gospel is a 501(c)3 non-profit dedicated to changing lives through God’s Word. ""We believe that changing how you read your Bible so that it is focused on Jesus will change your life. That is why we produce and freely distribute resources that help Bible readers all over the world encounter Jesus on every page of Scripture."" It's mission: ""To help you encounter Jesus by changing the way you read the Bible. We provide free resources that come alongside Bible readers to explain what they’re reading and how it points to Jesus.""",0121N000001ay18QAA
+[Account],001Uq00000F47jsIAB,Spoken Worldwide,2145493947,12801 North Central Expressway,Dallas,TX,75251,United States,www.spoken.org,,,0055c000008Y92hAAC,,0121N000001ay18QAA
+[Account],0012G00001zc7YaQAI,Sputnik Moment Test Org,,,,,,,,,,0052G000005PmXsQAK,,0121N000001ay18QAA
+[Account],001Uq00000QHKjMIAX,Streetlights,,,,,,,www.streetlightsbible.com,,,0055c00000AJ8G2AAL,"""We communicate the Gospel of Jesus Christ & God’s Word to our generation through Discipleship Resources & Gospel Outreach. To accomplish this mission as a non-profit ministry, we focus on creating Multilingual Audio Bible, Music, Podcast, Multimedia Bible Teaching & Gospel Collaborations directed to “Not-Yet” or New Believers in Christ. Overall, our desire for this & future generations is to hear, understand, & be transformed by the supernatural Gospel-Word of Jesus Christ. Our ministries’ origin, current identity, and ongoing call are founded on the belief that God’s Gospel-Word is spiritually transformational and the means in which humanity’s souls are transformed with new life. We not only believe this factually, but have personally experienced this transformationally!",0121N000001ay18QAA
+[Account],001Uq00000F7Ph6IAF,Team Expansion,,,,,,,,003Uq00000ETSSaIAP,,0055c000009P36IAAS,,0121N000001ay18QAA
+[Account],001Uq00000HQCqFIAX,Tech Strategy Work Group (TSWG),,,,,,,,0035c00002nPCBCAA4,,0055c000009OfwiAAC,"The ETEN Tech Strategy Work Group (TSWG) leverages innovation to achieve the ETEN All-Access Goals (AAGs) by 2033. Our mission is to enhance the quality and speed of Bible translation by promoting awareness, improving access, fostering adoption, and moving toward sustaining of cutting-edge technology, resources, and training. _x000D_
+_x000D_
+All TSWG files are stored in a Google Drive by Brett Stokes:_x000D_
+https://drive.google.com/drive/folders/1BCc5cfuoDZTkgzAcuHB7xTA30f_Yz-Wi?usp=sharing _x000D_
+_x000D_
+For file access, please contact Brett Stokes at brett@missionmutual.org",0125c0000016kFXAAY
+[Account],001Uq00000QHGKmIAP,The Bible Cohort,,,,,,,,,,0055c00000AJ8G2AAL,"The alliance has not yet launched a formal CIA but has laid relational groundwork with a shared aspiration: “Can we provide a free, accessible Bible teacher everywhere there is a Bible?” The alliance's vision includes: ""contextualized Bible teaching, digital and oral engagement strategies, and a move from isolated resources to shared ecosystem collaboration.""",0125c000000uXllAAE
+[Account],001Uq00000QHPuJIAX,The Bible Project,,,,,,,https://bibleproject.com/,,,0055c00000AJ8G2AAL,"""We are a nonprofit, crowdfunded organization that makes free resources like videos, podcasts, articles, and classes to help people experience the Bible in a way that is approachable and transformative. We do this by showcasing the literary art of the Scriptures and tracing key biblical themes from Genesis to Revelation.""",0121N000001ay18QAA
+[Account],0015c00002g1dvUAAQ,The Timothy Initiative,,PO Box 98177,Raleigh,NC,27624,US,https://www.ttionline.org/,0035c00002rLZI6AAO,80-0472803,0055c000009P36IAAS,"Our Mission_x000D_
+The Timothy Initiative exists to advance Christ’s Kingdom by multiplying disciples and disciple making churches around the world._x000D_
+_x000D_
+Our Vision_x000D_
+In obedience to Jesus and through Kingdom partnerships, The Timothy Initiative’s vision is to see multiplying, disciple making churches in every place and people group.",0121N000001ay18QAA
+[Account],0015c000021NUFcAAO,The Word for the World,(719) 594-2052,PO Box 26363,Colorado Springs,CO,80936,United States,www.twftw.org,0035c00002eJrplAAC,84-1426685,0055c000009OfwiAAC,"VISION STATEMENT: The vision of The Word For The World is the glory of God through transformed lives by the power of his Word in everyone’s heart language._x000D_
+_x000D_
+MISSION STATEMENT: To enable persons, ministries and organizations from language communities that do not have the Bible in their own language yet to take responsibility for Bible translation and related activities and to ensure its availability and accessibility. _x000D_
+_x000D_
+VISION 2050: Being instrumental in completing first-time translations of the entire Bible in 1000 languages by 2050.",0121N000001ay18QAA
+[Account],0012G00001gpJjuQAE,"The Wycliffe Seed Company, Inc.",(817) 557-2121,"220 Westway Place, Suite 100",Arlington,TX,76018,US,https://theseedcompany.org/,,33-0838929,0055c000009OdZ3AAK,VISION: God’s Word transforming lives in every language in this generation,0121N000001ay18QAA
+[Account],001Uq00000PkicRIAR,TrustBridge Global,,,,,,,https://www.trustbridgeglobal.com/,,,0055c00000AJ8G2AAL,"TrustBridge Global Foundation solves your cross-border giving challenges with secure, swift, and smart solutions, so your generosity can flow freely to uplift lives around the world. Implementing partner of Global Generosity Alliance.",0121N000001ay18QAA
+[Account],0012G00001wM6PgQAK,unfoldingWord,(407) 900-3005,13485 Veterans Way Suite 460,Orlando,FL,32827-7978,United States,www.unfoldingword.org,0035c00002eIlGmAAK,14-1888977,0055c000009OtFYAA0,,0121N000001ay18QAA
+[Account],0012G00001y7mzNQAQ,United Bible Societies,+44(0)1189 500 200,"UK Hub, Stonehill Green, Westlea,",Swindon,,SN5 7PJ,United Kingdom,https://www.unitedbiblesocieties.org/,0035c00002XyZfhAAF,98-0428633,0055c000009OfwiAAC,,0121N000001ay18QAA
+[Account],0015c00002J05sIAAR,Whole World Institute,804-482-0756,P.O. Box 23027,Richmond,VA,23223,US,https://4220foundation.com/,,,0052G000005Phx2QAC,(Formerly the 4.2.20 foundation),0121N000001ay18QAA
+[Account],0015c00002P1iqxAAB,Wycliffe Australia,+61 397122777,,,,,,https://wycliffe.org.au/,,,0052G000009uthyQAA,,0121N000001ay18QAA
+[Account],0012G00001mDkHtQAK,Wycliffe USA,(407) 852-3600,11221 John Wycliffe Blvd,Orlando,FL,32832,United States,https://www.wycliffe.org/,0032G00002S17HTQAZ,,0055c000009OdZ3AAK,VISION: To see God’s Word made accessible to all people in the language of their hearts.,0121N000001ay18QAA
+[Account],001Uq00000QHPO2IAP,YouVersion,,,,,,,https://www.youversion.com/the-bible-app/,,,0055c00000AJ8G2AAL,"""Our mission is to encourage and challenge people to seek intimacy with God every day...YouVersion creates biblically centered, culturally relevant experiences that encourage and challenge people to seek God throughout each day. It’s through these experiences we create opportunities fit for anyone’s daily routine, ultimately helping them form a spiritually-rich rhythm of seeking God intimately.""",0121N000001ay18QAA
+[Account],0015c00002P1irlAAB,YWAM Perth,+61 893285321,,,,,,https://www.ywamperth.org.au/,,,0052G000009uthyQAA,,0121N000001ay18QAA
+[Account],001Uq00000Rxp2CIAR,Innovation Labs,,,,,,,lab.eten.bible,,,005Uq000003LVezIAG,,0125c0000016kFXAAY
