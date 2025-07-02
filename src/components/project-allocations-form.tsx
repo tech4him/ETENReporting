@@ -332,7 +332,7 @@ export default function ProjectAllocationsForm({
                       type="text"
                       value={partner}
                       onChange={(e) => handlePartnerChange(index, partnerIndex, e.target.value)}
-                      className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900 placeholder-gray-500"
                       placeholder="Enter partner organization name"
                     />
                     {allocation.partners.length > 1 && (

@@ -233,7 +233,7 @@ export default function NonProjectAllocationsForm({
                     min="0"
                     value={allocation.amount}
                     onChange={(e) => handleAllocationChange(index, 'amount', e.target.value)}
-                    className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
+                    className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 bg-white text-gray-900 placeholder-gray-500 ${
                       isOverLimit
                         ? 'border-red-300 focus:ring-red-500'
                         : 'border-gray-300 focus:ring-blue-500'

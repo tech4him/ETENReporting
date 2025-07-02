@@ -348,7 +348,7 @@ export default function ReportPage() {
                     value={currentFundsSpent}
                     onChange={(e) => setCurrentFundsSpent(e.target.value)}
                     disabled={isSubmitted}
-                    className="text-2xl font-bold text-orange-600 bg-transparent border-none text-center w-full focus:outline-none focus:ring-2 focus:ring-blue-500 rounded disabled:opacity-60"
+                    className="text-2xl font-bold text-orange-600 bg-white border-none text-center w-full focus:outline-none focus:ring-2 focus:ring-blue-500 rounded disabled:opacity-60"
                     placeholder="0"
                   />
                   <p className="text-xs text-gray-500">Required</p>
