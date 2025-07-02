@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
 import { useAuth } from '@/contexts/AuthContext'
+import ETENLogo from '@/components/eten-logo'
 import { AlertCircle } from 'lucide-react'
 import TabbedReportForm from '@/components/tabbed-report-form'
 
@@ -183,7 +184,8 @@ export default function ApplicationReportPage() {
         // Load project allocations if they exist
         let projectAllocations = []
         try {
-          const allocationsResponse = await fetch(
+          // Query project allocations by application_report_id
+          let allocationsResponse = await fetch(
             `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/project_allocations?select=*,project_allocation_partners(*)&application_report_id=eq.${existingReport.id}`,
             {
               headers: {
@@ -192,8 +194,23 @@ export default function ApplicationReportPage() {
               }
             }
           )
+          
+          console.log('Project allocations response status:', allocationsResponse.status)
+          console.log('Project allocations response ok:', allocationsResponse.ok)
+          
           if (allocationsResponse.ok) {
-            projectAllocations = await allocationsResponse.json()
+            const rawData = await allocationsResponse.json()
+            console.log('Raw project allocations data:', rawData)
+            projectAllocations = rawData
+            // Transform the data to map project_allocation_partners to partners
+            projectAllocations = projectAllocations.map(allocation => ({
+              ...allocation,
+              partners: allocation.project_allocation_partners || []
+            }))
+            console.log('Transformed project allocations:', projectAllocations)
+          } else {
+            const errorText = await allocationsResponse.text()
+            console.error('Project allocations API error:', errorText)
           }
         } catch (err) {
           console.warn('Failed to load project allocations:', err)
@@ -202,8 +219,9 @@ export default function ApplicationReportPage() {
         // Load non-project allocations if they exist
         let nonProjectAllocations = null
         try {
-          const nonProjectResponse = await fetch(
-            `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/non_project_allocations?select=*&application_report_id=eq.${existingReport.id}`,
+          // Query non-project allocations by application_id (temporarily remove date filtering)
+          let nonProjectResponse = await fetch(
+            `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/non_project_allocations?select=*&application_id=eq.${params.id}`,
             {
               headers: {
                 'apikey': process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
@@ -211,9 +229,11 @@ export default function ApplicationReportPage() {
               }
             }
           )
+          
           if (nonProjectResponse.ok) {
             const data = await nonProjectResponse.json()
             nonProjectAllocations = data[0] || null
+            console.log('Loaded non-project allocations:', nonProjectAllocations)
           }
         } catch (err) {
           console.warn('Failed to load non-project allocations:', err)
@@ -234,6 +254,8 @@ export default function ApplicationReportPage() {
         }
 
         console.log('Combined report data:', reportWithApplication)
+        console.log('Project allocations detail:', projectAllocations)
+        console.log('First allocation partners:', projectAllocations[0]?.partners)
         setReport(reportWithApplication)
         
       } catch (err) {
@@ -550,9 +572,12 @@ export default function ApplicationReportPage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900">
-            Mid-Year Report - {report.application.fund_year}
-          </h1>
+          <div className="flex items-center mb-4">
+            <ETENLogo size="lg" className="mr-4" />
+            <h1 className="text-3xl font-bold text-gray-900">
+              Mid-Year Report - {report.application.fund_year}
+            </h1>
+          </div>
           <p className="text-xl text-gray-700 mt-2">{report.application.name}</p>
           <p className="text-gray-600">{report.application.organization.name}</p>
           {report.application.organization.client_rep && (
