@@ -245,7 +245,7 @@ export default function LanguageSelector({
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
           disabled={disabled}
-          className={`w-full px-4 py-2 pr-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:opacity-60 disabled:bg-gray-50 text-gray-900 placeholder-gray-500 bg-white ${value ? 'bg-blue-50 border-blue-300' : ''}`}
+          className={`form-input pr-10 ${value ? 'bg-blue-50 border-blue-300' : ''}`}
           readOnly={!!value}
         />
         

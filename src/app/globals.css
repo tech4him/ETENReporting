@@ -25,39 +25,48 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Standardized form input styling */
+/* Standardized form input styling - Always light theme */
 .form-input {
-  @apply w-full px-3 py-2 border border-gray-300 rounded-md bg-white text-gray-900 placeholder-gray-500;
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md;
+  background-color: #ffffff !important;
+  color: #111827 !important;
+  border-color: #d1d5db !important;
   @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
   @apply disabled:opacity-60 disabled:cursor-not-allowed;
+}
+
+.form-input::placeholder {
+  color: #6b7280 !important;
 }
 
 .form-input-sm {
-  @apply w-full px-2 py-1.5 text-sm border border-gray-300 rounded-md bg-white text-gray-900 placeholder-gray-500;
+  @apply w-full px-2 py-1.5 text-sm border border-gray-300 rounded-md;
+  background-color: #ffffff !important;
+  color: #111827 !important;
+  border-color: #d1d5db !important;
   @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
   @apply disabled:opacity-60 disabled:cursor-not-allowed;
 }
 
+.form-input-sm::placeholder {
+  color: #6b7280 !important;
+}
+
 .form-input-lg {
-  @apply w-full px-4 py-3 text-lg border border-gray-300 rounded-md bg-white text-gray-900 placeholder-gray-500;
+  @apply w-full px-4 py-3 text-lg border border-gray-300 rounded-md;
+  background-color: #ffffff !important;
+  color: #111827 !important;
+  border-color: #d1d5db !important;
   @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
   @apply disabled:opacity-60 disabled:cursor-not-allowed;
+}
+
+.form-input-lg::placeholder {
+  color: #6b7280 !important;
 }
 
 .form-input-error {
   @apply border-red-300 focus:ring-red-500 focus:border-red-500;
-}
-
-/* Dark mode form styling */
-@media (prefers-color-scheme: dark) {
-  .form-input, .form-input-sm, .form-input-lg {
-    @apply bg-gray-800 text-gray-100 border-gray-600 placeholder-gray-400;
-    @apply focus:ring-blue-400 focus:border-blue-400;
-  }
-  
-  .form-input-error {
-    @apply border-red-400 focus:ring-red-400 focus:border-red-400;
-  }
 }
 
 /* Button standardization */
