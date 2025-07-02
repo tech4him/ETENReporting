@@ -148,9 +148,9 @@ export default function ImprovedApplicationsDashboard() {
       setError(null)
       
       try {
-        // Fetch applications with reports - simplified query to avoid 400 errors
+        // Fetch applications filtered by organization
         const response = await fetch(
-          `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/eten_applications?select=id,name,call_type,fund_year,stage_name,awarded_amount,organization_id,created_at&organization_id=eq.${userProfile.organization_id}&order=created_at.desc`,
+          `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/eten_applications?select=*&organization_id=eq.${userProfile.organization_id}&order=created_at.desc`,
           {
             headers: {
               'apikey': process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
@@ -173,16 +173,16 @@ export default function ImprovedApplicationsDashboard() {
 
         const data = await response.json()
         
-        // Transform data with basic structure for now
+        // Transform data to match expected structure
         const transformedData = data.map((app: any) => ({
           ...app,
           organization: {
-            name: 'Loading...', // Will be fetched separately if needed
-            client_rep: { full_name: 'Loading...' }
+            name: app.organization_name || 'Unknown Organization',
+            client_rep: { full_name: app.client_rep_name || 'Unknown Rep' }
           },
-          financials: [],
-          reports: [],
-          activities: []
+          financials: app.application_financials || [],
+          reports: app.eten_application_reports || [],
+          activities: app.eten_activities || []
         }))
         
         setApplications(transformedData)
@@ -260,7 +260,7 @@ export default function ImprovedApplicationsDashboard() {
           </div>
           <div className="text-right">
             <p className="text-sm text-gray-500">Organization</p>
-            <p className="font-medium text-gray-900">{userProfile?.organization?.name}</p>
+            <p className="font-medium text-gray-900">{userProfile?.organizations?.name || userProfile?.organization?.name || 'Loading...'}</p>
           </div>
         </div>
       </div>
