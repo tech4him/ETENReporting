@@ -234,7 +234,7 @@ export default function ProjectAllocationsForm({
                   type="text"
                   value={allocation.dialect_rolv_number}
                   onChange={(e) => handleAllocationChange(index, 'dialect_rolv_number', e.target.value)}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-500 bg-white"
+                  className="form-input"
                   placeholder="Optional"
                 />
               </div>
@@ -249,7 +249,7 @@ export default function ProjectAllocationsForm({
                   min="0"
                   value={allocation.amount_allocated}
                   onChange={(e) => handleAllocationChange(index, 'amount_allocated', e.target.value)}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-500 bg-white"
+                  className="form-input"
                   placeholder="0.00"
                 />
               </div>
@@ -332,7 +332,7 @@ export default function ProjectAllocationsForm({
                       type="text"
                       value={partner}
                       onChange={(e) => handlePartnerChange(index, partnerIndex, e.target.value)}
-                      className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900 placeholder-gray-500"
+                      className="form-input flex-1"
                       placeholder="Enter partner organization name"
                     />
                     {allocation.partners.length > 1 && (

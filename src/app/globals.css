@@ -25,26 +25,83 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Light mode form styling */
-input, textarea, select {
-  background-color: #ffffff;
-  color: #111827;
-  border-color: #d1d5db;
+/* Standardized form input styling */
+.form-input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md bg-white text-gray-900 placeholder-gray-500;
+  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+  @apply disabled:opacity-60 disabled:cursor-not-allowed;
 }
 
-input::placeholder, textarea::placeholder {
-  color: #6b7280;
+.form-input-sm {
+  @apply w-full px-2 py-1.5 text-sm border border-gray-300 rounded-md bg-white text-gray-900 placeholder-gray-500;
+  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+  @apply disabled:opacity-60 disabled:cursor-not-allowed;
+}
+
+.form-input-lg {
+  @apply w-full px-4 py-3 text-lg border border-gray-300 rounded-md bg-white text-gray-900 placeholder-gray-500;
+  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+  @apply disabled:opacity-60 disabled:cursor-not-allowed;
+}
+
+.form-input-error {
+  @apply border-red-300 focus:ring-red-500 focus:border-red-500;
 }
 
 /* Dark mode form styling */
 @media (prefers-color-scheme: dark) {
-  input, textarea, select {
-    background-color: #1f2937;
-    color: #f9fafb;
-    border-color: #374151;
+  .form-input, .form-input-sm, .form-input-lg {
+    @apply bg-gray-800 text-gray-100 border-gray-600 placeholder-gray-400;
+    @apply focus:ring-blue-400 focus:border-blue-400;
   }
   
-  input::placeholder, textarea::placeholder {
-    color: #9ca3af;
+  .form-input-error {
+    @apply border-red-400 focus:ring-red-400 focus:border-red-400;
   }
+}
+
+/* Button standardization */
+.btn-primary {
+  @apply px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-md;
+  @apply hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500;
+  @apply disabled:opacity-60 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 bg-white text-gray-700 text-sm font-medium rounded-md border border-gray-300;
+  @apply hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500;
+  @apply disabled:opacity-60 disabled:cursor-not-allowed;
+}
+
+.btn-sm {
+  @apply px-3 py-1.5 text-xs;
+}
+
+.btn-lg {
+  @apply px-6 py-3 text-base;
+}
+
+/* Typography scale */
+.text-responsive-sm {
+  @apply text-sm md:text-base;
+}
+
+.text-responsive-base {
+  @apply text-base md:text-lg;
+}
+
+.text-responsive-lg {
+  @apply text-lg md:text-xl;
+}
+
+.text-responsive-xl {
+  @apply text-xl md:text-2xl;
+}
+
+.text-responsive-2xl {
+  @apply text-2xl md:text-3xl;
+}
+
+.text-responsive-3xl {
+  @apply text-2xl md:text-3xl lg:text-4xl;
 }

@@ -197,7 +197,7 @@ export default function ToolCapacityReportForm({
                 type="number"
                 value={fundsReceived}
                 onChange={(e) => setFundsReceived(e.target.value)}
-                className="w-full pl-8 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-900 placeholder-gray-500"
+                className="form-input pl-8"
                 placeholder="0.00"
                 step="0.01"
                 min="0"
@@ -215,7 +215,7 @@ export default function ToolCapacityReportForm({
                 type="number"
                 value={fundsSpent}
                 onChange={(e) => setFundsSpent(e.target.value)}
-                className="w-full pl-8 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-900 placeholder-gray-500"
+                className="form-input pl-8"
                 placeholder="0.00"
                 step="0.01"
                 min="0"
@@ -233,7 +233,7 @@ export default function ToolCapacityReportForm({
                 type="number"
                 value={unusedFunds}
                 onChange={(e) => setUnusedFunds(e.target.value)}
-                className="w-full pl-8 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-900 placeholder-gray-500"
+                className="form-input pl-8"
                 placeholder="0.00"
                 step="0.01"
                 min="0"
@@ -262,7 +262,7 @@ export default function ToolCapacityReportForm({
           <h3 className="text-lg font-semibold text-gray-900">Milestone Update</h3>
           <button
             onClick={addMilestone}
-            className="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            className="btn-primary btn-sm inline-flex items-center"
           >
             <Plus className="h-4 w-4 mr-1" />
             Add Milestone
@@ -387,7 +387,7 @@ export default function ToolCapacityReportForm({
         <button
           onClick={handleSave}
           disabled={saving}
-          className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="btn-primary btn-lg inline-flex items-center"
         >
           {saving ? (
             <>

@@ -241,8 +241,8 @@ export default function ApplicationsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex justify-between items-center">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">ETEN Applications</h1>
-              <p className="text-gray-600 mt-1">
+              <h1 className="text-responsive-3xl font-bold text-gray-900">ETEN Applications</h1>
+              <p className="text-responsive-base text-gray-600 mt-1">
                 Mid-year reporting for funded applications - 2025
               </p>
             </div>
@@ -411,7 +411,7 @@ export default function ApplicationsPage() {
                       </div>
                       <Link
                         href={`/applications/${application.id}/report`}
-                        className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                        className="btn-primary inline-flex items-center"
                       >
                         {reportStatus === 'submitted' ? 'View Report' : 'Complete Report'}
                         <ArrowRight className="ml-2 h-4 w-4" />

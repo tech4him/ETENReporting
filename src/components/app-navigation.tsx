@@ -213,6 +213,7 @@ function NavigationDropdown({ item }: { item: NavigationItem }) {
 export default function AppNavigation() {
   const { userProfile, loading } = useAuth()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [mobileSubmenus, setMobileSubmenus] = useState<{[key: string]: boolean}>({})
   const pathname = usePathname()
 
   // Don't show navigation on login/signup pages or when not authenticated
@@ -273,13 +274,16 @@ export default function AppNavigation() {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="pl-10 pr-4 py-2 w-64 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-900 placeholder-gray-500"
+                  className="form-input-sm pl-10 pr-4 w-64"
                 />
               </div>
             </div>
 
             {/* Notifications */}
-            <button className="p-2 text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md">
+            <button 
+              className="p-2 text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md"
+              aria-label="View notifications"
+            >
               <Bell className="w-5 h-5" />
             </button>
 
@@ -312,7 +316,7 @@ export default function AppNavigation() {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="pl-10 pr-4 py-2 w-full text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-900 placeholder-gray-500"
+                  className="form-input-sm pl-10 pr-4"
                 />
               </div>
             </div>
@@ -320,36 +324,68 @@ export default function AppNavigation() {
             {/* Mobile navigation links */}
             {filteredNavigation.map((item) => (
               <div key={item.name}>
-                <Link
-                  href={item.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`
-                    flex items-center px-3 py-2 rounded-md text-base font-medium
-                    ${pathname === item.href || pathname.startsWith(item.href + '/')
-                      ? 'bg-blue-100 text-blue-700'
-                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
-                    }
-                  `}
-                >
-                  <item.icon className="w-5 h-5 mr-3" />
-                  {item.name}
-                </Link>
-                
-                {/* Mobile submenu */}
-                {item.children && pathname.startsWith(item.href) && (
-                  <div className="ml-8 space-y-1">
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.href}
-                        href={child.href}
-                        onClick={() => setIsMobileMenuOpen(false)}
-                        className="flex items-center px-3 py-2 rounded-md text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100"
-                      >
-                        <child.icon className="w-4 h-4 mr-2" />
-                        {child.name}
-                      </Link>
-                    ))}
+                {item.children ? (
+                  <div>
+                    <button
+                      onClick={() => setMobileSubmenus(prev => ({
+                        ...prev,
+                        [item.name]: !prev[item.name]
+                      }))}
+                      className={`
+                        flex items-center justify-between w-full px-3 py-2 rounded-md text-base font-medium
+                        ${pathname === item.href || pathname.startsWith(item.href + '/')
+                          ? 'bg-blue-100 text-blue-700'
+                          : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                        }
+                      `}
+                      aria-expanded={mobileSubmenus[item.name] || false}
+                      aria-haspopup="true"
+                    >
+                      <div className="flex items-center">
+                        <item.icon className="w-5 h-5 mr-3" />
+                        {item.name}
+                      </div>
+                      <ChevronDown className={`w-4 h-4 transition-transform ${
+                        mobileSubmenus[item.name] ? 'rotate-180' : ''
+                      }`} />
+                    </button>
+                    
+                    {/* Mobile submenu */}
+                    {mobileSubmenus[item.name] && (
+                      <div className="ml-8 space-y-1 mt-1">
+                        {item.children.map((child) => (
+                          <Link
+                            key={child.href}
+                            href={child.href}
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            className={`flex items-center px-3 py-2 rounded-md text-sm ${
+                              pathname === child.href
+                                ? 'bg-blue-50 text-blue-700'
+                                : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                            }`}
+                          >
+                            <child.icon className="w-4 h-4 mr-2" />
+                            {child.name}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
                   </div>
+                ) : (
+                  <Link
+                    href={item.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className={`
+                      flex items-center px-3 py-2 rounded-md text-base font-medium
+                      ${pathname === item.href || pathname.startsWith(item.href + '/')
+                        ? 'bg-blue-100 text-blue-700'
+                        : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                      }
+                    `}
+                  >
+                    <item.icon className="w-5 h-5 mr-3" />
+                    {item.name}
+                  </Link>
                 )}
               </div>
             ))}

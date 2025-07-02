@@ -275,7 +275,7 @@ export default function ReportPage() {
                 <ArrowLeft className="h-5 w-5" />
               </Link>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">
+                <h1 className="text-responsive-2xl font-bold text-gray-900">
                   {report.project.name} - Mid-Year Report
                 </h1>
                 <p className="text-gray-600">{report.project.organization.name}</p>
@@ -348,7 +348,7 @@ export default function ReportPage() {
                     value={currentFundsSpent}
                     onChange={(e) => setCurrentFundsSpent(e.target.value)}
                     disabled={isSubmitted}
-                    className="text-2xl font-bold text-orange-600 bg-white border-none text-center w-full focus:outline-none focus:ring-2 focus:ring-blue-500 rounded disabled:opacity-60"
+                    className="form-input text-responsive-2xl font-bold text-orange-600 text-center border-none bg-white"
                     placeholder="0"
                   />
                   <p className="text-xs text-gray-500">Required</p>
