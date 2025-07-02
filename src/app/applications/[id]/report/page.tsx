@@ -494,8 +494,41 @@ export default function ApplicationReportPage() {
   }
 
   const reportingTemplateType = getReportingTemplateType(report.application.call_type)
-  const isSubmitted = report.status === 'submitted'
+  // Fix for reports incorrectly marked as submitted without submission date
+  const isActuallySubmitted = report.status === 'submitted' && report.submitted_at
+  const isSubmitted = isActuallySubmitted
   const isAdmin = userProfile?.role === 'admin'
+
+  // Auto-fix incorrect status
+  useEffect(() => {
+    const fixIncorrectStatus = async () => {
+      if (report.status === 'submitted' && !report.submitted_at) {
+        console.log('Fixing incorrectly marked submitted report')
+        try {
+          await fetch(
+            `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/eten_application_reports?id=eq.${report.id}`,
+            {
+              method: 'PATCH',
+              headers: {
+                'apikey': process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+                'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!}`,
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({
+                status: 'draft'
+              })
+            }
+          )
+          // Refresh the page to show correct state
+          window.location.reload()
+        } catch (error) {
+          console.error('Failed to fix report status:', error)
+        }
+      }
+    }
+    
+    fixIncorrectStatus()
+  }, [report.id, report.status, report.submitted_at])
 
   return (
     <div className="min-h-screen bg-gray-50">
