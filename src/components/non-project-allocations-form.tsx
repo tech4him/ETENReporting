@@ -157,7 +157,7 @@ export default function NonProjectAllocationsForm({
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h3 className="text-lg font-semibold">Non-Project Allocations</h3>
+        <h3 className="text-lg font-semibold text-gray-900">Non-Project Allocations</h3>
         <div className="text-sm text-gray-600">
           Total: ${totalNonProjectAllocations.toLocaleString('en-US', { minimumFractionDigits: 2 })}
         </div>
@@ -203,7 +203,7 @@ export default function NonProjectAllocationsForm({
             <div key={allocation.allocation_type} className="border rounded-lg p-4 space-y-4">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
-                  <h4 className="font-medium text-gray-900">{typeInfo.label}</h4>
+                  <h4 className="font-semibold text-gray-900">{typeInfo.label}</h4>
                   <p className="text-sm text-gray-600 mt-1">{typeInfo.description}</p>
                   
                   {maxAllowed !== null && (
@@ -261,7 +261,7 @@ export default function NonProjectAllocationsForm({
       </div>
 
       <div className="bg-gray-50 rounded-lg p-4">
-        <h4 className="font-medium text-gray-900 mb-2">Summary</h4>
+        <h4 className="font-semibold text-gray-900 mb-2">Summary</h4>
         <div className="space-y-1 text-sm text-gray-600">
           <div className="flex justify-between">
             <span>Project Allocations Total:</span>

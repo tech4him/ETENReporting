@@ -500,7 +500,7 @@ function OverviewTab({ data, updateData, isSubmitted, errors, applicationId }: a
             Your responses are automatically saved as you type. You can return to complete the report at any time before the submission deadline.
           </p>
           <div className="mt-4">
-            <h4 className="font-medium mb-2">Report Sections:</h4>
+            <h4 className="font-semibold text-gray-900 mb-2">Report Sections:</h4>
             <ul className="list-disc list-inside space-y-1 ml-4">
               <li>Financial Summary - Report your current fiscal year spending</li>
               <li>Project Allocations - Allocate funding to specific language projects</li>
@@ -597,7 +597,7 @@ function FinancialSummaryTab({ data, updateData, isSubmitted, errors, applicatio
 
           {/* Summary Box */}
           <div className="bg-gray-50 rounded-lg p-4 mt-6">
-            <h4 className="text-sm font-medium text-gray-700 mb-3">Funding Summary</h4>
+            <h4 className="text-sm font-semibold text-gray-900 mb-3">Funding Summary</h4>
             <div className="space-y-2 text-sm">
               <div className="flex justify-between">
                 <span className="text-gray-600">Project Allocations:</span>
@@ -764,7 +764,7 @@ function NarrativesTab({ data, updateData, isSubmitted, errors, applicationId }:
 
       {/* Tips for writing narratives */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-        <h4 className="text-sm font-medium text-blue-900 mb-2">Tips for Writing Effective Narratives</h4>
+        <h4 className="text-sm font-semibold text-blue-900 mb-2">Tips for Writing Effective Narratives</h4>
         <ul className="text-sm text-blue-800 space-y-1 list-disc list-inside">
           <li>Be specific about accomplishments and include measurable outcomes where possible</li>
           <li>Reference specific activities or milestones from your original application</li>
@@ -786,7 +786,7 @@ function ToolOverviewTab({ data, updateData, isSubmitted, errors, applicationId 
             This report covers your Tool Development or Capacity Building activities for January 1 - June 30, 2025.
           </p>
           <div className="mt-4">
-            <h4 className="font-medium mb-2">Report Sections:</h4>
+            <h4 className="font-semibold text-gray-900 mb-2">Report Sections:</h4>
             <ul className="list-disc list-inside space-y-1 ml-4">
               <li>Financial Update - Report your spending and budget status</li>
               <li>Milestones - Update progress on project milestones</li>

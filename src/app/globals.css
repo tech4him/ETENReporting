@@ -114,3 +114,14 @@ body {
 .text-responsive-3xl {
   @apply text-2xl md:text-3xl lg:text-4xl;
 }
+
+/* Ensure headings have proper dark color and weight */
+h1, h2, h3, h4, h5, h6 {
+  color: #111827 !important; /* Force dark gray-900 */
+  font-weight: 600 !important; /* Force semibold weight */
+}
+
+/* Override for headings that explicitly need different colors (like blue headings) */
+.text-blue-900, .text-blue-800, .text-red-800 {
+  color: inherit !important;
+}

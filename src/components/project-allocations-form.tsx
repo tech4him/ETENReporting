@@ -188,7 +188,7 @@ export default function ProjectAllocationsForm({
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h3 className="text-lg font-semibold">Project Allocations</h3>
+        <h3 className="text-lg font-semibold text-gray-900">Project Allocations</h3>
         <div className="text-sm text-gray-600">
           Total: ${totalAllocated.toLocaleString('en-US', { minimumFractionDigits: 2 })}
         </div>
@@ -198,7 +198,7 @@ export default function ProjectAllocationsForm({
         {allocations.map((allocation, index) => (
           <div key={index} className="border rounded-lg p-4 space-y-4">
             <div className="flex justify-between items-center">
-              <h4 className="font-medium">Project {index + 1}</h4>
+              <h4 className="font-semibold text-gray-900">Project {index + 1}</h4>
               {allocations.length > 1 && (
                 <button
                   type="button"
